@@ -1,0 +1,106 @@
+\begin{thebibliography}{10}
+
+\bibitem{Blasi2015}
+Barbara Blasi, Hakim Tafer, Donatella Tesei, and Katja Sterflinger.
+\newblock {From Glacier to Sauna: RNA-Seq of the Human Pathogen Black Fungus
+  Exophiala dermatitidis under Varying Temperature Conditions Exhibits Common
+  and Novel Fungal Response}.
+\newblock {\em Plos One}, 10(6):e0127103, 2015.
+
+\bibitem{Dobin2013}
+Alexander Dobin, Carrie~a. Davis, Felix Schlesinger, Jorg Drenkow, Chris
+  Zaleski, Sonali Jha, Philippe Batut, Mark Chaisson, and Thomas~R. Gingeras.
+\newblock {STAR: Ultrafast universal RNA-seq aligner}.
+\newblock {\em Bioinformatics}, 29(1):15--21, 2013.
+
+\bibitem{Korpelainen2014}
+Garry~Wong {Eija Korpelainen, Jarno Tuimala, Panu Somervuo, Mikael Huss}.
+\newblock {\em {RNA-seq Data Analysis - A Practical Approach}}.
+\newblock 2014.
+
+\bibitem{Gostincar2010}
+Cene Gostin\v{c}ar, Martin Grube, Sybren {De Hoog}, Polona Zalar, and Nina
+  Gunde-Cimerman.
+\newblock {Extremotolerance in fungi: Evolution on the edge}.
+\newblock {\em FEMS Microbiology Ecology}, 71(1):2--11, 2010.
+
+\bibitem{Haas2008}
+Brian~J Haas, Steven~L Salzberg, Wei Zhu, Mihaela Pertea, Jonathan~E Allen,
+  Joshua Orvis, Owen White, C~Robin Buell, and Jennifer~R Wortman.
+\newblock {Automated eukaryotic gene structure annotation using EVidenceModeler
+  and the Program to Assemble Spliced Alignments.}
+\newblock {\em Genome biology}, 9(1):R7, 2008.
+
+\bibitem{Haas2011}
+Brian~J Haas, Qiandong Zeng, Matthew~D Pearson, Christina~a Cuomo, and
+  Jennifer~R Wortman.
+\newblock {Approaches to Fungal Genome Annotation.}
+\newblock {\em Mycology}, 2(3):118--141, 2011.
+
+\bibitem{Koster2012}
+Johannes K\"{o}ster and Sven Rahmann.
+\newblock {Snakemake-a scalable bioinformatics workflow engine}.
+\newblock {\em Bioinformatics}, 28(19):2520--2522, 2012.
+
+\bibitem{Linde2015}
+J.~Linde, S.~Duggan, M.~Weber, F.~Horn, P.~Sieber, D.~Hellwig, K.~Riege,
+  M.~Marz, R.~Martin, R.~Guthke, and O.~Kurzai.
+\newblock {Defining the transcriptomic landscape of Candida glabrata by
+  RNA-Seq}.
+\newblock {\em Nucleic Acids Research}, 43(3):1392--1406, 2015.
+
+\bibitem{Grabherr2013}
+Nir {Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn
+  A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong
+  Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind,
+  Federica di Palma, Bruce W.}, Friedman, and Aviv Regev.
+\newblock {Trinity: reconstructing a full-length transcriptome without a genome
+  from RNA-Seq data}.
+\newblock {\em Nature Biotechnology}, 29(7):644--652, 2013.
+
+\bibitem{Poyntner2014}
+Caroline Poyntner.
+\newblock {Bioremediation of waste gas and soil by black extremotolerant
+  fungi}.
+\newblock pages 1--30, 2014.
+
+\bibitem{Prenafeta-Boldu2001}
+Francesc~X. Prenafeta-Bold\'{u}, Andrea Kuhn, Dion~M.A.M. Luykx, Heidrun Anke,
+  Johan~W. van Groenestijn, and Jan~A.M. de~Bont.
+\newblock {Isolation and characterisation of fungi growing on volatile aromatic
+  hydrocarbons as their sole carbon and energy source}.
+\newblock {\em Mycological Research}, 105(4):477--484, April 2001.
+
+\bibitem{Stanke2006}
+Mario Stanke, Ana Tzvetkova, and Burkhard Morgenstern.
+\newblock {AUGUSTUS at EGASP: using EST, protein and genomic alignments for
+  improved gene prediction in the human genome.}
+\newblock {\em Genome biology}, 7 Suppl 1(May 2005):S11.1--8, 2006.
+
+\bibitem{Steijger2013}
+Tamara Steijger, Josep~F. Abril, P\"{a}r~G. Engstr\"{o}m, Felix Kokocinski,
+  {The RGASP Consortium}, Tim~J. Hubbard, Roderic Guig\'{o}, Jennifer Harrow,
+  and Paul Bertone.
+\newblock {Assessment of transcript reconstruction methods for RNA-seq}.
+\newblock {\em Nature Methods}, 10(12):1177--1184, 2013.
+
+\bibitem{Sterflinger2015}
+Katja Sterflinger, Ksenija Lopandic, Barbara Blasi, Caroline Poynter, and
+  Sybren~De Hoog.
+\newblock {Draft Genome of Cladophialophora immunda , a Black Yeast and
+  Efficient Degrader of Polyaromatic Hydrocarbons}.
+\newblock 3(1):5--6, 2015.
+
+\bibitem{Trapnell2010}
+Cole Trapnell, Brian~A Williams, Geo Pertea, Ali Mortazavi, Gordon Kwan,
+  Marijke~J van Baren, Steven~L Salzberg, Barbara~J Wold, and Lior Pachter.
+\newblock {Transcript assembly and quantification by RNA-Seq reveals
+  unannotated transcripts and isoform switching during cell differentiation.}
+\newblock {\em Nature biotechnology}, 28(5):511--515, 2010.
+
+\bibitem{Xiong2006}
+Jin Xiong.
+\newblock {\em {Essential Bioinformatics}}.
+\newblock 2006.
+
+\end{thebibliography}
