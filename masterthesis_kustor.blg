@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: masterthesis_kustor.aux
+The style file: plain.bst
+Database file #1: bib/Masterthesis.bib
+Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
+while executing---line 1049 of file plain.bst
+Warning--empty journal in Hoog2003
+Warning--empty publisher in Korpelainen2014
+Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
+while executing---line 1090 of file plain.bst
+Warning--empty school in Poyntner2014
+Warning--empty journal in Sterflinger2015
+Warning--empty publisher in Xiong2006
+You've used 30 entries,
+            2118 wiz_defined-function locations,
+            704 strings with 10999 characters,
+and the built_in function-call counts, 12442 in all, are:
+= -- 1172
+> -- 824
+< -- 2
++ -- 324
+- -- 294
+* -- 1085
+:= -- 2137
+add.period$ -- 90
+call.type$ -- 30
+change.case$ -- 233
+chr.to.int$ -- 0
+cite$ -- 35
+duplicate$ -- 349
+empty$ -- 790
+format.name$ -- 294
+if$ -- 2442
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 30
+newline$ -- 152
+num.names$ -- 62
+pop$ -- 210
+preamble$ -- 1
+purify$ -- 206
+quote$ -- 0
+skip$ -- 239
+stack$ -- 0
+substring$ -- 774
+swap$ -- 48
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 5
+while$ -- 111
+width$ -- 32
+write$ -- 323
+(There were 2 error messages)
