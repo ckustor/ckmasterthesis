@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{Ashburner2000}
+Michael Ashburner, Catherine~A Ball, Judith~A Blake, David Botstein, Heather
+  Butler, J~Michael Cherry, Allan~P Davis, Kara Dolinski, Selina~S Dwight,
+  Janan~T Eppig, Midori~A Harris, David~P Hill, Laurie Issel-Tarver, Andrew
+  Kasarskis, Suzanna Lewis, John~C Matese, Joel~E Richardson, Martin Ringwald,
+  Gerald~M Rubin, and Gavin Sherlock.
+\newblock {Gene Ontology: tool for the unification of biology}.
+\newblock {\em Nat Genet}, 25(1):25--29, may 2000.
+
 \bibitem{Badali2008}
 H.~Badali, C.~Gueidan, M.~J. Najafzadeh, a.~Bonifaz, a.~H~G {Gerrits van den
   Ende}, and G.~S. de~Hoog.
@@ -8,7 +17,7 @@ H.~Badali, C.~Gueidan, M.~J. Najafzadeh, a.~Bonifaz, a.~H~G {Gerrits van den
 
 \bibitem{BarbaraBlasi2015}
 {Barbara Blasi}, Caroline Poyntner, Tamara Rudavsky, Francesc~X.
-  Prenafeta-Bold\'{u}, Sybren de~Hoog, Hakim Tafer, and Katja Sterflinger.
+  Prenafeta-Bold{\'{u}}, Sybren de~Hoog, Hakim Tafer, and Katja Sterflinger.
 \newblock {Pathogenic yet environmentally friendly? Black fungal candidates for
   bioremediation of pollutants}.
 \newblock {\em Geomicrobiology Journal; inPress}, 2015.
@@ -27,7 +36,7 @@ Alexander Dobin, Carrie~a. Davis, Felix Schlesinger, Jorg Drenkow, Chris
 \newblock {\em Bioinformatics}, 29(1):15--21, 2013.
 
 \bibitem{Gostincar2010}
-Cene Gostin\v{c}ar, Martin Grube, Sybren {De Hoog}, Polona Zalar, and Nina
+Cene Gostin{\v{c}}ar, Martin Grube, Sybren {De Hoog}, Polona Zalar, and Nina
   Gunde-Cimerman.
 \newblock {Extremotolerance in fungi: Evolution on the edge}.
 \newblock {\em FEMS Microbiology Ecology}, 71(1):2--11, 2010.
@@ -36,7 +45,7 @@ Cene Gostin\v{c}ar, Martin Grube, Sybren {De Hoog}, Polona Zalar, and Nina
 B.~J. Haas.
 \newblock {Improving the Arabidopsis genome annotation using maximal transcript
   alignment assemblies}.
-\newblock {\em Nucleic Acids Research}, 31(19):5654--5666, October 2003.
+\newblock {\em Nucleic Acids Research}, 31(19):5654--5666, oct 2003.
 
 \bibitem{Haas2008}
 Brian~J Haas, Steven~L Salzberg, Wei Zhu, Mihaela Pertea, Jonathan~E Allen,
@@ -55,7 +64,7 @@ Brian~J Haas, Qiandong Zeng, Matthew~D Pearson, Christina~a Cuomo, and
 S.~Hartmans and J.~Tramper.
 \newblock {Dichloromethane removal from waste gases with a trickle-bed
   bioreactor}.
-\newblock {\em Bioprocess Engineering}, 6(3):83--92, February 1991.
+\newblock {\em Bioprocess Engineering}, 6(3):83--92, feb 1991.
 
 \bibitem{Hoog2003}
 G~S~De Hoog, V~Vicente, R~B Caligiorne, S~Kantarcioglu, K~Tintelnot, and
@@ -63,13 +72,18 @@ G~S~De Hoog, V~Vicente, R~B Caligiorne, S~Kantarcioglu, K~Tintelnot, and
 \newblock {Species Diversity and Polymorphism in the}.
 \newblock 41(10):4767--4778, 2003.
 
+\bibitem{kanehisa2000}
+Minoru Kanehisa and Susumu Goto.
+\newblock {KEGG: Kyoto Encyclopaedia of Genes and Genomes}.
+\newblock {\em Nucl. Acids Res.}, 28(1):27--30, 2000.
+
 \bibitem{Korpelainen2014}
 Eija Korpelainen, Jarno Tuimala, Panu Somervuo, Mikael Huss, and Garry Wong.
 \newblock {\em {RNA-seq Data Analysis: A Practical Approach}}.
 \newblock 2015.
 
 \bibitem{Koster2012}
-Johannes K\"{o}ster and Sven Rahmann.
+Johannes K{\"{o}}ster and Sven Rahmann.
 \newblock {Snakemake-a scalable bioinformatics workflow engine}.
 \newblock {\em Bioinformatics}, 28(19):2520--2522, 2012.
 
@@ -77,7 +91,7 @@ Johannes K\"{o}ster and Sven Rahmann.
 Heng Li and Nils Homer.
 \newblock {A survey of sequence alignment algorithms for next-generation
   sequencing.}
-\newblock {\em Briefings in bioinformatics}, 11(5):473--83, September 2010.
+\newblock {\em Briefings in bioinformatics}, 11(5):473--83, sep 2010.
 
 \bibitem{Liao2014}
 Yang Liao, Gordon~K. Smyth, and Wei Shi.
@@ -92,10 +106,16 @@ J.~Linde, S.~Duggan, M.~Weber, F.~Horn, P.~Sieber, D.~Hellwig, K.~Riege,
 \newblock {\em Nucleic Acids Research}, 43(3):1392--1406, 2015.
 
 \bibitem{Luykx2003}
-Dion~M.a.M Luykx, Francesc~X Prenafeta-Bold\'{u}, and Jan a.M~de Bont.
+Dion~M.a.M Luykx, Francesc~X Prenafeta-Bold{\'{u}}, and Jan a.M~de Bont.
 \newblock {Toluene monooxygenase from the fungus Cladosporium sphaerospermum}.
 \newblock {\em Biochemical and Biophysical Research Communications},
   312(2):373--379, 2003.
+
+\bibitem{Maaroufi2013}
+Halim Maaroufi and Robert~M Tanguay.
+\newblock {Analysis and Phylogeny of Small Heat Shock Proteins from Marine
+  Viruses and Their Cyanobacteria Host}.
+\newblock {\em PLoS ONE}, 8(11):e81207, nov 2013.
 
 \bibitem{Grabherr2013}
 Nir {Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn
@@ -106,6 +126,11 @@ Nir {Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn
   from RNA-Seq data}.
 \newblock {\em Nature Biotechnology}, 29(7):644--652, 2013.
 
+\bibitem{Parales2008}
+R.~E. Parales, J.~V. Parales, D.~A. Pelletier, and J.~L. Ditty.
+\newblock {Chapter 1 Diversity of Microbial Toluene Degradation Pathways}.
+\newblock {\em Advances in Applied Microbiology}, 64:1--73, jan 2008.
+
 \bibitem{Poyntner2014}
 Caroline Poyntner.
 \newblock {\em {Bioremediation of waste gas and soil by black extremotolerant
@@ -113,11 +138,11 @@ Caroline Poyntner.
 \newblock PhD thesis, 2014.
 
 \bibitem{Prenafeta-Boldu2001}
-Francesc~X. Prenafeta-Bold\'{u}, Andrea Kuhn, Dion~M.A.M. Luykx, Heidrun Anke,
-  Johan~W. van Groenestijn, and Jan~A.M. de~Bont.
+Francesc~X. Prenafeta-Bold{\'{u}}, Andrea Kuhn, Dion~M.A.M. Luykx, Heidrun
+  Anke, Johan~W. van Groenestijn, and Jan~A.M. de~Bont.
 \newblock {Isolation and characterisation of fungi growing on volatile aromatic
   hydrocarbons as their sole carbon and energy source}.
-\newblock {\em Mycological Research}, 105(4):477--484, April 2001.
+\newblock {\em Mycological Research}, 105(4):477--484, apr 2001.
 
 \bibitem{Raddadi2015}
 Noura Raddadi, Ameur Cherif, Daniele Daffonchio, Mohamed Neifar, and Fabio
@@ -137,6 +162,11 @@ L~J Rothschild and R~L Mancinelli.
 \newblock {Life in extreme environments.}
 \newblock {\em Nature}, 409(September 2000):1092--1101, 2001.
 
+\bibitem{Lindquist1988}
+{S Lindquist} and {and E A Craig}.
+\newblock {The Heat-Shock Proteins}.
+\newblock {\em Annual Review of Genetics}, 22(1):631--677, 1988.
+
 \bibitem{Stanke2006}
 Mario Stanke, Ana Tzvetkova, and Burkhard Morgenstern.
 \newblock {AUGUSTUS at EGASP: using EST, protein and genomic alignments for
@@ -144,8 +174,8 @@ Mario Stanke, Ana Tzvetkova, and Burkhard Morgenstern.
 \newblock {\em Genome biology}, 7 Suppl 1(May 2005):S11.1--8, 2006.
 
 \bibitem{Steijger2013}
-Tamara Steijger, Josep~F. Abril, P\"{a}r~G. Engstr\"{o}m, Felix Kokocinski,
-  {The RGASP Consortium}, Tim~J. Hubbard, Roderic Guig\'{o}, Jennifer Harrow,
+Tamara Steijger, Josep~F. Abril, P{\"{a}}r~G. Engstr{\"{o}}m, Felix Kokocinski,
+  {The RGASP Consortium}, Tim~J. Hubbard, Roderic Guig{\'{o}}, Jennifer Harrow,
   and Paul Bertone.
 \newblock {Assessment of transcript reconstruction methods for RNA-seq}.
 \newblock {\em Nature Methods}, 10(12):1177--1184, 2013.
@@ -154,9 +184,9 @@ Tamara Steijger, Josep~F. Abril, P\"{a}r~G. Engstr\"{o}m, Felix Kokocinski,
 Katja Sterflinger.
 \newblock {Black Yeasts and Meristematic Fungi: Ecology, Diversity and
   Identification}.
-\newblock In G\'{a}bor P\'{e}ter and Carlos Rosa, editors, {\em Biodiversity
-  and Ecophysiology of Yeasts SE - 20}, The Yeast Handbook, pages 501--514.
-  Springer Berlin Heidelberg, 2006.
+\newblock In G{\'{a}}bor P{\'{e}}ter and Carlos Rosa, editors, {\em
+  Biodiversity and Ecophysiology of Yeasts SE - 20}, The Yeast Handbook, pages
+  501--514. Springer Berlin Heidelberg, 2006.
 
 \bibitem{Sterflinger2015}
 Katja Sterflinger, Ksenija Lopandic, Barbara Blasi, Caroline Poynter, and

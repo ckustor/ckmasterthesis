@@ -2,7 +2,23 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: masterthesis_kustor.aux
 The style file: plain.bst
-Database file #1: bib/Masterthesis.bib
+Database file #1: bib/library.bib
+Repeated entry---line 553 of file bib/library.bib
+ : @article{Hartmans1991
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 659 of file bib/library.bib
+ : @misc{BarbaraBlasi2015
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 749 of file bib/library.bib
+ : @article{Parales2008
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 765 of file bib/library.bib
+ : @article{Hartmans1991
+ :                      ,
+I'm skipping whatever remains of this entry
 Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
 while executing---line 1049 of file plain.bst
 Warning--empty journal in Hoog2003
@@ -12,45 +28,45 @@ while executing---line 1090 of file plain.bst
 Warning--empty school in Poyntner2014
 Warning--empty journal in Sterflinger2015
 Warning--empty publisher in Xiong2006
-You've used 30 entries,
+You've used 35 entries,
             2118 wiz_defined-function locations,
-            704 strings with 10999 characters,
-and the built_in function-call counts, 12442 in all, are:
-= -- 1172
-> -- 824
+            743 strings with 12211 characters,
+and the built_in function-call counts, 14643 in all, are:
+= -- 1375
+> -- 989
 < -- 2
-+ -- 324
-- -- 294
-* -- 1085
-:= -- 2137
-add.period$ -- 90
-call.type$ -- 30
-change.case$ -- 233
++ -- 389
+- -- 354
+* -- 1291
+:= -- 2523
+add.period$ -- 105
+call.type$ -- 35
+change.case$ -- 278
 chr.to.int$ -- 0
-cite$ -- 35
-duplicate$ -- 349
-empty$ -- 790
-format.name$ -- 294
-if$ -- 2442
+cite$ -- 40
+duplicate$ -- 404
+empty$ -- 916
+format.name$ -- 354
+if$ -- 2863
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 30
-newline$ -- 152
-num.names$ -- 62
-pop$ -- 210
+int.to.str$ -- 35
+missing$ -- 35
+newline$ -- 177
+num.names$ -- 72
+pop$ -- 245
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 246
 quote$ -- 0
-skip$ -- 239
+skip$ -- 277
 stack$ -- 0
-substring$ -- 774
-swap$ -- 48
+substring$ -- 896
+swap$ -- 53
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
+type$ -- 136
 warning$ -- 5
-while$ -- 111
-width$ -- 32
-write$ -- 323
-(There were 2 error messages)
+while$ -- 130
+width$ -- 37
+write$ -- 378
+(There were 6 error messages)
