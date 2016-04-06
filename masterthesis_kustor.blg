@@ -3,21 +3,21 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: masterthesis_kustor.aux
 The style file: plain.bst
 Database file #1: bib/library.bib
-Repeated entry---line 553 of file bib/library.bib
+Repeated entry---line 166 of file bib/library.bib
  : @article{Hartmans1991
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 659 of file bib/library.bib
+Repeated entry---line 612 of file bib/library.bib
  : @misc{BarbaraBlasi2015
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 749 of file bib/library.bib
- : @article{Parales2008
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 765 of file bib/library.bib
+Repeated entry---line 709 of file bib/library.bib
  : @article{Hartmans1991
  :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 722 of file bib/library.bib
+ : @article{Parales2008
+ :                     ,
 I'm skipping whatever remains of this entry
 Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
 while executing---line 1049 of file plain.bst
