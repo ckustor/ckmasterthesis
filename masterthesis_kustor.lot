@@ -1,9 +1,10 @@
 \select@language {english}
-\contentsline {table}{\numberline {1}{\ignorespaces Hartmans\textquotesingle mineral media\relax }}{14}
+\contentsline {table}{\numberline {1}{\ignorespaces Hartmans\textquotesingle mineral media\relax }}{15}
 \contentsline {table}{\numberline {2}{\ignorespaces RNA Sequencing Read Summary\relax }}{27}
-\contentsline {table}{\numberline {3}{\ignorespaces 10 most Up-regulated genes\relax }}{28}
-\contentsline {table}{\numberline {4}{\ignorespaces 10 most Down-regulated genes\relax }}{28}
-\contentsline {table}{\numberline {5}{\ignorespaces Overrepresented GO terms for the genes up-regulated\relax }}{30}
-\contentsline {table}{\numberline {6}{\ignorespaces Overrepresented GO terms for the genes down-regulated\relax }}{32}
-\contentsline {table}{\numberline {7}{\ignorespaces Overrepresented KEGG pathways for the genes down-regulated\relax }}{34}
-\contentsline {table}{\numberline {8}{\ignorespaces Enzymes of toluene degradation\relax }}{37}
+\contentsline {table}{\numberline {3}{\ignorespaces Genome Annotation\relax }}{27}
+\contentsline {table}{\numberline {4}{\ignorespaces 10 most Up-regulated genes\relax }}{28}
+\contentsline {table}{\numberline {5}{\ignorespaces 10 most Down-regulated genes\relax }}{29}
+\contentsline {table}{\numberline {6}{\ignorespaces Overrepresented GO terms for the genes up-regulated\relax }}{31}
+\contentsline {table}{\numberline {7}{\ignorespaces Overrepresented GO terms for the genes down-regulated\relax }}{33}
+\contentsline {table}{\numberline {8}{\ignorespaces Overrepresented KEGG pathways for the genes down-regulated\relax }}{35}
+\contentsline {table}{\numberline {9}{\ignorespaces Enzymes of toluene degradation\relax }}{38}

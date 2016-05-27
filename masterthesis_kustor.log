@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  6 APR 2016 09:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.29)  27 MAY 2016 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,15 +735,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--58
  []
 
 [1]
-Overfull \hbox (14.24574pt too wide) in paragraph at lines 60--66
-\T1/cmr/m/n/12 Viele bi-ol-o-gis-che Prozesse bezüglich En-ergieerzeu-gung sind
- runter reg-uliert. Wohinge-
- []
-
-
-Overfull \hbox (14.44344pt too wide) in paragraph at lines 60--66
-\T1/cmr/m/n/12 gen Gene, die für spez-i-fis-che metabolis-che Pro-tein-prozesse
- und Pro-teifal-tung codieren,
+Overfull \hbox (1.26628pt too wide) in paragraph at lines 60--66
+\T1/cmr/m/n/12 daten wur-den durch RNA Se-quen-zierung er-hal-ten und mit bioin
+-for-ma-tis-chen Meth-
  []
 
 
@@ -757,485 +751,511 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--66
 \tf@toc=\write3
 \openout3 = `masterthesis_kustor.toc'.
 
- [4] [5
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
+
+ []
+
+[5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-[6] <pics/toldegradation.png, id=39, 775.89874pt x 376.40625pt>
-File: pics/toldegradation.png Graphic file (type png)
+[6] <pics/toluenpathway.png, id=39, 731.73375pt x 419.5675pt>
+File: pics/toluenpathway.png Graphic file (type png)
 
-<use pics/toldegradation.png>
-Package pdftex.def Info: pics/toldegradation.png used on input line 99.
-(pdftex.def)             Requested size: 420.0pt x 203.75603pt.
+<use pics/toluenpathway.png>
+Package pdftex.def Info: pics/toluenpathway.png used on input line 98.
+(pdftex.def)             Requested size: 360.0pt x 206.42213pt.
 
-Overfull \hbox (1.74632pt too wide) in paragraph at lines 99--101
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 
  []
 
-[7 <./pics/toldegradation.png>]
+[7 <./pics/toluenpathway.png>]
 <pics/cimmunda1.JPG, id=45, 1040.688pt x 780.516pt>
 File: pics/cimmunda1.JPG Graphic file (type jpg)
  <use pics/cimmunda1.JPG>
-Package pdftex.def Info: pics/cimmunda1.JPG used on input line 117.
+Package pdftex.def Info: pics/cimmunda1.JPG used on input line 113.
 (pdftex.def)             Requested size: 300.0pt x 224.99805pt.
 
+<pics/cimmunda_morph.jpg, id=46, 237.9154pt x 333.84903pt>
+File: pics/cimmunda_morph.jpg Graphic file (type jpg)
+
+<use pics/cimmunda_morph.jpg>
+Package pdftex.def Info: pics/cimmunda_morph.jpg used on input line 124.
+(pdftex.def)             Requested size: 130.0pt x 182.4255pt.
+
+<pics/cimmunda_morph2.jpg, id=47, 665.48625pt x 340.27126pt>
+File: pics/cimmunda_morph2.jpg Graphic file (type jpg)
+
+<use pics/cimmunda_morph2.jpg>
+Package pdftex.def Info: pics/cimmunda_morph2.jpg used on input line 128.
+(pdftex.def)             Requested size: 230.0pt x 117.60138pt.
+
+Overfull \hbox (20.87317pt too wide) in paragraph at lines 128--129
+[][] 
+ []
+
 [8 <./pics/cimmunda1.JPG>]
-<pics/GCresults.png, id=50, 852.18375pt x 608.2725pt>
+<pics/GCresults.png, id=52, 852.18375pt x 608.2725pt>
 File: pics/GCresults.png Graphic file (type png)
  <use pics/GCresults.png>
-Package pdftex.def Info: pics/GCresults.png used on input line 129.
+Package pdftex.def Info: pics/GCresults.png used on input line 142.
 (pdftex.def)             Requested size: 400.0pt x 285.51686pt.
 
-[9 <./pics/GCresults.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+[9 <./pics/cimmunda_morph.jpg> <./pics/cimmunda_morph2.jpg>] [10 <./pics/GCresu
+lts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-[10] <pics/DAG.png, id=58, 956.57375pt x 1022.82124pt>
+[11] <pics/DAG.png, id=64, 956.57375pt x 1022.82124pt>
 File: pics/DAG.png Graphic file (type png)
  <use pics/DAG.png>
-Package pdftex.def Info: pics/DAG.png used on input line 159.
+Package pdftex.def Info: pics/DAG.png used on input line 172.
 (pdftex.def)             Requested size: 430.0pt x 459.7815pt.
 
-Overfull \hbox (11.74632pt too wide) in paragraph at lines 159--161
+Overfull \hbox (11.74632pt too wide) in paragraph at lines 172--174
  [][] 
  []
 
-[11] [12 <./pics/DAG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--174
+[12] [13 <./pics/DAG.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 183--187
 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13
+[14
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
-[14] [15] <pics/featurecounts.jpg, id=81, 433.62pt x 112.7412pt>
+[15] [16] <pics/featurecounts.jpg, id=86, 433.62pt x 112.7412pt>
 File: pics/featurecounts.jpg Graphic file (type jpg)
 
 <use pics/featurecounts.jpg>
-Package pdftex.def Info: pics/featurecounts.jpg used on input line 232.
+Package pdftex.def Info: pics/featurecounts.jpg used on input line 245.
 (pdftex.def)             Requested size: 400.0pt x 104.00526pt.
- [16]
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+ [17]
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
-<pics/diffgraph.jpg, id=87, 400.49625pt x 567.11874pt>
+<pics/diffgraph.jpg, id=93, 400.49625pt x 567.11874pt>
 File: pics/diffgraph.jpg Graphic file (type jpg)
 
 <use pics/diffgraph.jpg>
-Package pdftex.def Info: pics/diffgraph.jpg used on input line 246.
+Package pdftex.def Info: pics/diffgraph.jpg used on input line 259.
 (pdftex.def)             Requested size: 150.0pt x 212.4094pt.
- [17 <./pics/featurecounts.jpg>] [18 <./pics/diffgraph.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 261--270
+ [18 <./pics/featurecounts.jpg>] [19 <./pics/diffgraph.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 274--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--270
+Underfull \hbox (badness 10000) in paragraph at lines 274--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--270
+Underfull \hbox (badness 10000) in paragraph at lines 274--283
 
  []
 
-[19] [20] <pics/pipeline.jpg, id=102, 661.47125pt x 1008.76875pt>
+[20] [21] <pics/pipeline.jpg, id=107, 661.47125pt x 1008.76875pt>
 File: pics/pipeline.jpg Graphic file (type jpg)
 
 <use pics/pipeline.jpg>
-Package pdftex.def Info: pics/pipeline.jpg used on input line 280.
+Package pdftex.def Info: pics/pipeline.jpg used on input line 293.
 (pdftex.def)             Requested size: 310.0pt x 472.75145pt.
- [21] [22 <./pics/pipeline.jpg>] [23] [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 357--381
-
- []
-
-[27
+ [22] [23 <./pics/pipeline.jpg>] [24] [25] [26] [27
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 404--410
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
 
  []
 
-[28] <pics/heatmap2.jpg, id=131, 1053.9375pt x 1053.9375pt>
-File: pics/heatmap2.jpg Graphic file (type jpg)
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 435--441
 
-<use pics/heatmap2.jpg>
-Package pdftex.def Info: pics/heatmap2.jpg used on input line 431.
+ []
+
+<pics/heatmap2.jpg, id=133, 1053.9375pt x 1053.9375pt>
+File: pics/heatmap2.jpg Graphic file (type jpg)
+ <use pics/heatmap2.jpg>
+Package pdftex.def Info: pics/heatmap2.jpg used on input line 462.
 (pdftex.def)             Requested size: 200.0pt x 199.99289pt.
 
-Overfull \hbox (32.7011pt too wide) in paragraph at lines 431--432
+Overfull \hbox (32.7011pt too wide) in paragraph at lines 462--463
 [][] 
  []
 
-<pics/PCA.jpg, id=132, 1053.9375pt x 1053.9375pt>
-File: pics/PCA.jpg Graphic file (type jpg)
- <use pics/PCA.jpg>
-Package pdftex.def Info: pics/PCA.jpg used on input line 436.
-(pdftex.def)             Requested size: 200.0pt x 199.99289pt.
- [29 <./pics/heatmap2.jpg> <./pics/PCA.jpg>]
-Underfull \hbox (badness 4621) in paragraph at lines 457--457
+<pics/PCA2.png, id=134, 632.3625pt x 632.3625pt>
+File: pics/PCA2.png Graphic file (type png)
+ <use pics/PCA2.png>
+Package pdftex.def Info: pics/PCA2.png used on input line 467.
+(pdftex.def)             Requested size: 200.0pt x 199.99611pt.
+ [29]
+[30 <./pics/heatmap2.jpg> <./pics/PCA2.png>]
+Underfull \hbox (badness 4621) in paragraph at lines 488--488
 []\T1/cmr/m/n/6 cellular pro-tein metabolic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 []\T1/cmr/m/n/6 macromolecule metabolic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
 []\T1/cmr/m/n/6 cellular macro-molecule
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--468
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []\T1/cmr/m/n/6 misfolded or in-com-
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 471--471
+Underfull \hbox (badness 2326) in paragraph at lines 502--502
 []\T1/cmr/m/n/6 cellular re-sponse to DNA
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 474--474
+Underfull \hbox (badness 6658) in paragraph at lines 505--505
 []\T1/cmr/m/n/6 tRNA aminoa-cy-la-tion for
  []
 
-[30] <pics/GO_Up.jpg, id=143, 12045.0pt x 12045.0pt>
-File: pics/GO_Up.jpg Graphic file (type jpg)
- <use pics/GO_Up.jpg>
-Package pdftex.def Info: pics/GO_Up.jpg used on input line 491.
-(pdftex.def)             Requested size: 350.0pt x 349.93933pt.
+[31] <pics/GO_Up2.png, id=148, 1084.05pt x 1084.05pt>
+File: pics/GO_Up2.png Graphic file (type png)
+ <use pics/GO_Up2.png>
+Package pdftex.def Info: pics/GO_Up2.png used on input line 522.
+(pdftex.def)             Requested size: 420.0pt x 419.99887pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 505--505
+Overfull \hbox (1.74632pt too wide) in paragraph at lines 522--524
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
 []\T1/cmr/m/n/6 purine ri-bonu-cle-o-side metabolic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--507
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
 []\T1/cmr/m/n/6 ribonucleoside triphos-phate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 508--508
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 []\T1/cmr/m/n/6 purine nu-cle-o-side triphos-phate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--513
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
 []\T1/cmr/m/n/6 purine-containing com-pound
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 514--514
+Underfull \hbox (badness 4429) in paragraph at lines 545--545
 []\T1/cmr/m/n/6 purine ri-bonu-cle-o-side monophos-
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 515--515
+Underfull \hbox (badness 1478) in paragraph at lines 546--546
 []\T1/cmr/m/n/6 purine nu-cle-o-side monophos-phate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []\T1/cmr/m/n/6 purine ri-bonu-cleotide metabolic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
 []\T1/cmr/m/n/6 ribonucleoside monophos-phate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []\T1/cmr/m/n/6 nucleoside monophos-phate
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 524--524
+Underfull \hbox (badness 2828) in paragraph at lines 555--555
 []\T1/cmr/m/n/6 single-organism biosyn-thetic pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--534
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\T1/cmr/m/n/6 inorganic cation trans-mem-brane
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []\T1/cmr/m/n/6 nucleoside triphos-phate biosyn-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 540--540
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
 []\T1/cmr/m/n/6 purine nu-cle-o-side triphos-phate
  []
 
 
-Overfull \hbox (0.67964pt too wide) in paragraph at lines 500--544
+Overfull \hbox (0.67964pt too wide) in paragraph at lines 531--575
  [][] 
  []
 
-[31 <./pics/GO_Up.jpg>]
-Overfull \hbox (6.86197pt too wide) in paragraph at lines 548--552
+[32 <./pics/GO_Up2.png>]
+Overfull \hbox (6.86197pt too wide) in paragraph at lines 579--581
 \T1/cmr/m/n/12 The chem-i-cal re-ac-tions and path-ways re-sult-ing in the for-
 ma-tion of pre-cur-sor metabo-
  []
 
-[32] <pics/GO_Down.jpg, id=150, 12045.0pt x 11905.47874pt>
-File: pics/GO_Down.jpg Graphic file (type jpg)
 
-<use pics/GO_Down.jpg>
-Package pdftex.def Info: pics/GO_Down.jpg used on input line 558.
-(pdftex.def)             Requested size: 280.0pt x 276.67236pt.
+Underfull \hbox (badness 10000) in paragraph at lines 579--581
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 572--573
+ []
+
+[33] <pics/GO_Down2.png, id=155, 1084.05pt x 1084.05pt>
+File: pics/GO_Down2.png Graphic file (type png)
+
+<use pics/GO_Down2.png>
+Package pdftex.def Info: pics/GO_Down2.png used on input line 586.
+(pdftex.def)             Requested size: 300.0pt x 299.9921pt.
+ [34 <./pics/GO_Down2.png>]
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 603--604
 []\T1/cmr/m/n/6 JSEJ01000010.1.81
  []
 
 
-Overfull \hbox (7.75641pt too wide) in paragraph at lines 572--573
+Overfull \hbox (7.75641pt too wide) in paragraph at lines 603--604
 \T1/cmr/m/n/6 JSEJ01000023.1.136
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 572--573
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 603--604
 \T1/cmr/m/n/6 JSEJ01000099.1.18
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 572--573
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 603--604
 \T1/cmr/m/n/6 JSEJ01000099.1.19| 
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 574--575
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 605--606
 []\T1/cmr/m/n/6 JSEJ01000010.1.81
  []
 
 
-Overfull \hbox (7.75641pt too wide) in paragraph at lines 574--575
+Overfull \hbox (7.75641pt too wide) in paragraph at lines 605--606
 \T1/cmr/m/n/6 JSEJ01000023.1.136
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 574--575
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 605--606
 \T1/cmr/m/n/6 JSEJ01000099.1.18
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 574--575
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 605--606
 \T1/cmr/m/n/6 JSEJ01000099.1.19| 
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 576--577
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 607--608
 []\T1/cmr/m/n/6 JSEJ01000039.1.14
  []
 
 
-Overfull \hbox (7.75641pt too wide) in paragraph at lines 576--577
+Overfull \hbox (7.75641pt too wide) in paragraph at lines 607--608
 \T1/cmr/m/n/6 JSEJ01000027.1.103
  []
 
 
-Overfull \hbox (4.09064pt too wide) in paragraph at lines 576--577
+Overfull \hbox (4.09064pt too wide) in paragraph at lines 607--608
 \T1/cmr/m/n/6 JSEJ01000074.1.37| 
  []
 
-[33 <./pics/GO_Down.jpg>] <pics/tcacycle.png, id=154, 980.66376pt x 730.73pt>
-File: pics/tcacycle.png Graphic file (type png)
 
-<use pics/tcacycle.png>
-Package pdftex.def Info: pics/tcacycle.png used on input line 591.
-(pdftex.def)             Requested size: 320.0pt x 238.44333pt.
- [34]
-Underfull \hbox (badness 10000) in paragraph at lines 598--607
+Underfull \hbox (badness 10000) in paragraph at lines 629--638
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--607
+Underfull \hbox (badness 10000) in paragraph at lines 629--638
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--607
+Underfull \hbox (badness 10000) in paragraph at lines 629--638
 
  []
 
-[35 <./pics/tcacycle.png>] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[35] [36]
+Overfull \hbox (4.05559pt too wide) in paragraph at lines 643--645
+\T1/cmr/m/n/12 dioxygenase), pro-to-cat-e-chu-ate is likely be-ing me-tab-o-liz
+ed through an ortho-cleavage
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
+
+ []
+
+<pics/toldeg_UPDOWN.png, id=166, 791.95876pt x 368.37625pt>
+File: pics/toldeg_UPDOWN.png Graphic file (type png)
+
+<use pics/toldeg_UPDOWN.png>
+Package pdftex.def Info: pics/toldeg_UPDOWN.png used on input line 649.
+(pdftex.def)             Requested size: 400.0pt x 186.05943pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 655--659
+
+ []
+
+[37 <./pics/toldeg_UPDOWN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 667--667
 []\T1/cmr/m/n/6 Cytochrome-P-450 toluene
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--635
+Underfull \hbox (badness 10000) in paragraph at lines 681--681
 []\T1/cmr/m/n/6 cis-cis-Muconate-Lactonizing-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--639
+Underfull \hbox (badness 10000) in paragraph at lines 685--685
 []$\OML/cmm/m/it/6 ^^L$\T1/cmr/m/n/6 -ketoAdipateEnol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 643--643
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
 []$\OML/cmm/m/it/6 ^^L$\T1/cmr/m/n/6 -Carboxy-cis-cis-Muconate-
  []
 
 
-Overfull \hbox (2.91907pt too wide) in paragraph at lines 618--652
+Overfull \hbox (2.91907pt too wide) in paragraph at lines 664--698
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--660
-
+[38]
+Overfull \hbox (0.53157pt too wide) in paragraph at lines 732--738
+\T1/cmr/m/n/12 The pre-dicted genes that are es-sen-tial for the cat-e-gory of 
+gly-col-y-sis/gluconeogenesis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--660
-
- []
-
-[37] <pics/toldeg_UPDOWN.png, id=173, 791.95876pt x 368.37625pt>
-File: pics/toldeg_UPDOWN.png Graphic file (type png)
-
-<use pics/toldeg_UPDOWN.png>
-Package pdftex.def Info: pics/toldeg_UPDOWN.png used on input line 664.
-(pdftex.def)             Requested size: 420.0pt x 195.36214pt.
-
-Overfull \hbox (1.74632pt too wide) in paragraph at lines 664--666
- [][] 
- []
-
-[38 <./pics/toldeg_UPDOWN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 700--701
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--703
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 706--707
+Underfull \hbox (badness 10000) in paragraph at lines 732--738
 
  []
 
 [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 712--713
+Underfull \hbox (badness 10000) in paragraph at lines 739--742
+
+ []
+
+[40]
+Overfull \hbox (7.50023pt too wide) in paragraph at lines 750--751
+\T1/cmr/m/n/12 or-gan-ism is an im-por-tant fungi with the abil-ity to de-grade
+ toluene. \T1/cmr/m/it/12 Cladophialophora
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--715
+Underfull \hbox (badness 10000) in paragraph at lines 752--753
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
 
  []
 
-[40
+[41
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 720--721
+Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
  []
 
-[41] (./masterthesis_kustor.bbl [42
+[42] (./masterthesis_kustor.bbl [43
 
-] [43]
+] [44]
 Underfull \hbox (badness 1184) in paragraph at lines 109--113
 \T1/cmr/m/it/12 Bio-chem-i-cal and Bio-phys-i-cal Re-search Com-mu-ni-ca-tions\
 T1/cmr/m/n/12 , 312(2):373--379,
  []
 
-[44] [45]) [46] (./masterthesis_kustor.lof)
+[45] [46]) [47] (./masterthesis_kustor.lof)
 \tf@lof=\write4
 \openout4 = `masterthesis_kustor.lof'.
 
- [47
+ [48
 
 ] (./masterthesis_kustor.lot)
 \tf@lot=\write5
 \openout5 = `masterthesis_kustor.lot'.
 
 
-[48
+[49
 
-] (./masterthesis_kustor.aux) ) 
+] [50] (./masterthesis_kustor.aux) ) 
 Here is how much of TeX's memory you used:
- 6079 strings out of 493089
- 86240 string characters out of 6134841
- 178712 words of memory out of 5000000
- 9421 multiletter control sequences out of 15000+600000
- 23017 words of font info for 49 fonts, out of 8000000 for 9000
+ 6089 strings out of 493089
+ 86460 string characters out of 6134841
+ 178722 words of memory out of 5000000
+ 9428 multiletter control sequences out of 15000+600000
+ 24390 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,43p,1150b,442s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dv
-ips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
-s/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1200
-.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1440.p
-fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1728.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi2074.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on masterthesis_kustor.pdf (50 pages, 20544700 bytes).
+ 42i,10n,43p,1359b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/e
+nc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2015/texmf-dist/fonts/enc
+/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfb
+i1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi1
+440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi172
+8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbi2074.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on masterthesis_kustor.pdf (52 pages, 4361308 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 308 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

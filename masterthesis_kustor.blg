@@ -3,19 +3,19 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: masterthesis_kustor.aux
 The style file: plain.bst
 Database file #1: bib/library.bib
-Repeated entry---line 166 of file bib/library.bib
+Repeated entry---line 526 of file bib/library.bib
  : @article{Hartmans1991
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 612 of file bib/library.bib
+Repeated entry---line 628 of file bib/library.bib
+ : @article{Hartmans1991
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 681 of file bib/library.bib
  : @misc{BarbaraBlasi2015
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 709 of file bib/library.bib
- : @article{Hartmans1991
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 722 of file bib/library.bib
+Repeated entry---line 718 of file bib/library.bib
  : @article{Parales2008
  :                     ,
 I'm skipping whatever remains of this entry
