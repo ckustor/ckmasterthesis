@@ -67,16 +67,42 @@ url = {http://linkinghub.elsevier.com/retrieve/pii/S0006291X03022253},
 volume = {312},
 year = {2003}
 }
-@article{Grabherr2013,
-abstract = {Massively-parallel cDNA sequencing has opened the way to deep and efficient probing of transcriptomes. Current approaches for transcript reconstruction from such data often rely on aligning reads to a reference genome, and are thus unsuitable for samples with a partial or missing reference genome. Here, we present the methodology for reconstruction, and evaluate it on samples from fission yeast, mouse, and whitefly – an insect whose genome has not yet been sequenced. Trinity fully reconstructs a large fraction of the transcripts present in the data, also reporting alternative splice isoforms and transcripts from recently duplicated genes. In all cases, Trinity performs better than other available transcriptome assembly programs, and its sensitivity is comparable to methods relying on genome alignments. Our approach provides a unified and general solution for transcriptome reconstruction in any sample, especially in the complete absence of a reference genome.},
-author = {{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev},
-journal = {Nature Biotechnology},
-number = {7},
-pages = {644--652},
-title = {{Trinity: reconstructing a full-length transcriptome without a genome from RNA-Seq data}},
-volume = {29},
+
+@article{Haas2013,
+abstract = {De novo assembly of RNA-seq data enables researchers to study transcriptomes without the need for a genome sequence; this approach can be usefully applied, for instance, in research on 'non-model organisms' of ecological and evolutionary importance, cancer samples or the microbiome. In this protocol we describe the use of the Trinity platform for de novo transcriptome assembly from RNA-seq data in non-model organisms. We also present Trinity-supported companion utilities for downstream applications, including RSEM for transcript abundance estimation, R/Bioconductor packages for identifying differentially expressed transcripts across samples and approaches to identify protein-coding genes. In the procedure, we provide a workflow for genome-independent transcriptome analysis leveraging the Trinity platform. The software, documentation and demonstrations are freely available from http://trinityrnaseq.sourceforge.net. The run time of this protocol is highly dependent on the size and complexity of data to be analyzed. The example data set analyzed in the procedure detailed herein can be processed in less than 5 h.},
+author = {Haas, Brian J and Papanicolaou, Alexie and Yassour, Moran and Grabherr, Manfred and Blood, Philip D and Bowden, Joshua and Couger, Matthew Brian and Eccles, David and Li, Bo and Lieber, Matthias and Macmanes, Matthew D and Ott, Michael and Orvis, Joshua and Pochet, Nathalie and Strozzi, Francesco and Weeks, Nathan and Westerman, Rick and William, Thomas and Dewey, Colin N and Henschel, Robert and Leduc, Richard D and Friedman, Nir and Regev, Aviv},
+doi = {10.1038/nprot.2013.084},
+file = {:home/htafer/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Haas et al. - 2013 - De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and ana.pdf:pdf},
+issn = {1750-2799},
+journal = {Nature protocols},
+keywords = {Base Sequence,Gene Expression Profiling,Gene Expression Profiling: methods,RNA,RNA: chemistry,Schizosaccharomyces,Schizosaccharomyces pombe Proteins,Schizosaccharomyces pombe Proteins: chemistry,Schizosaccharomyces pombe Proteins: genetics,Schizosaccharomyces: genetics,Sequence Analysis, RNA,Sequence Analysis, RNA: methods,Software,Transcriptome},
+month = {aug},
+number = {8},
+pages = {1494--512},
+pmid = {23845962},
+title = {{De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis.}},
+url = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3875132{\&}tool=pmcentrez{\&}rendertype=abstract},
+volume = {8},
 year = {2013}
 }
+
+@article{Grabherr2011,
+abstract = {Massively parallel sequencing of cDNA has enabled deep and efficient probing of transcriptomes. Current approaches for transcript reconstruction from such data often rely on aligning reads to a reference genome, and are thus unsuitable for samples with a partial or missing reference genome. Here we present the Trinity method for de novo assembly of full-length transcripts and evaluate it on samples from fission yeast, mouse and whitefly, whose reference genome is not yet available. By efficiently constructing and analyzing sets of de Bruijn graphs, Trinity fully reconstructs a large fraction of transcripts, including alternatively spliced isoforms and transcripts from recently duplicated genes. Compared with other de novo transcriptome assemblers, Trinity recovers more full-length transcripts across a broad range of expression levels, with a sensitivity similar to methods that rely on genome alignments. Our approach provides a unified solution for transcriptome reconstruction in any sample, especially in the absence of a reference genome.},
+author = {Grabherr, Manfred G and Haas, Brian J and Yassour, Moran and Levin, Joshua Z and Thompson, Dawn A and Amit, Ido and Adiconis, Xian and Fan, Lin and Raychowdhury, Raktima and Zeng, Qiandong and Chen, Zehua and Mauceli, Evan and Hacohen, Nir and Gnirke, Andreas and Rhind, Nicholas and di Palma, Federica and Birren, Bruce W and Nusbaum, Chad and Lindblad-Toh, Kerstin and Friedman, Nir and Regev, Aviv},
+doi = {10.1038/nbt.1883},
+issn = {1546-1696 (Electronic)},
+journal = {Nature biotechnology},
+keywords = {Algorithms,Base Sequence,Gene Expression Profiling,Molecular Sequence Data,RNA,Reference Values,Sequence Analysis, RNA,Transcriptome,chemistry,genetics,methods,standards},
+language = {eng},
+month = {jul},
+number = {7},
+pages = {644--652},
+pmid = {21572440},
+title = {{Full-length transcriptome assembly from RNA-Seq data without a reference genome.}},
+volume = {29},
+year = {2011}
+}
+
 @article{Kanehisa2000,
 abstract = {{\{}KEGG{\}} {\{}(Kyoto{\}} Encyclopedia of Genes and Genomes) is a knowledge base for systematic analysis of gene functions, linking genomic information with higher order functional information. The genomic information is stored in the {\{}GENES{\}} database, which is a collection of gene catalogs for all the completely sequenced genomes and some partial genomes with up-to-date annotation of gene functions. The higher order functional information is stored in the {\{}PATHWAY{\}} database, which contains graphical representations of cellular processes, such as metabolism, membrane transport, signal transduction and cell cycle. The {\{}PATHWAY{\}} database is supplemented by a set of ortholog group tables for the information about conserved subpathways (pathway motifs), which are often encoded by positionally coupled genes on the chromosome and which are especially useful in predicting gene functions. A third database in {\{}KEGG{\}} is {\{}LIGAND{\}} for the information about chemical compounds, enzyme molecules and enzymatic reactions. {\{}KEGG{\}} provides Java graphics tools for browsing genome maps, comparing two genome maps and manipulating expression maps, as well as computational tools for sequence comparison, graph comparison and path computation. The {\{}KEGG{\}} databases are daily updated and made freely available (http://www.genome.ad.jp/kegg/ ).},
 author = {Kanehisa, Minoru and Goto, Susumu},
@@ -204,35 +230,7 @@ url = {http://www.ncbi.nlm.nih.gov/pubmed/14971858},
 volume = {15},
 year = {2004}
 }
-@article{Parales2008,
-abstract = {Both natural and anthropogenic sources contribute to the presence of toluene in the environment. Toluene is found naturally in petroleum and coal, and is a major component of gasoline; it is also produced by the burning of organic materials and has been detected in cigarette smoke (Cline et al., 1991; Darrall et al., 1998; Koppmann et al., 1997 and Sinninghe Damste et al., 1992). Toluene is also produced industrially for use as a solvent and in the production of various chemicals. In addition, toluene is produced and emitted by plants (Heiden et al., 1999; Holzinger et al., 2000 and Vrkocova et al., 2000). Benzene, toluene, ethylbenzene, and xylenes (BTEX), which together represent a significant fraction of the aromatic hydrocarbons in gasoline, are known or suspected carcinogens (Dean, 1985 and Snyder, 2002) and present a serious threat to drinking water supplies because of their relatively high aqueous solubilities. A significant amount of effort has gone into the study of toluene fate in the environment and the contribution of biodegradation to its removal.  Because of the stability of the benzene ring, the initial step in toluene degradation is the most difficult. Aromatic hydrocarbons such as toluene are significantly more reduced than cellular organic material and thus must be oxidized prior to assimilation. Bacteria and fungi have evolved a variety of interesting pathways for the degradation of toluene. An overview of known toluene degradation pathways is shown in Fig. 1.1. Under aerobic conditions, oxygen is used directly as a substrate, destabilizing the aromatic ring and preparing the molecule for further metabolism. Some bacteria use a dioxygenase to catalyze the formation of a cis-dihydrodiol product, which is then subjected to dehydrogenation to form 3-methylcatechol. Other bacteria have monooxygenases that catalyze the initial hydroxylation at the ortho, meta, or para position of toluene, which is then followed by a second hydroxylation by the same or a different hydroxylase to form catecholic products. Alternatively, the methyl group of toluene may undergo oxidation prior to conversion to a catechol as in the TOL pathway (Fig. 1.1). A recently described fungal pathway uses a variation of the TOL pathway. Thus, in the aerobic pathways, catechol and its derivatives generally serve as central metabolites in aerobic toluene degradation, and several of the pathways converge at a common intermediate (Fig. 1.1). Catechols are then cleaved by either an extradiol (meta) or intradiol (ortho) ring fission reaction, again with oxygen participating as a substrate. In the absence of available oxygen, a completely different degradation strategy must be used. To initiate toluene degradation, anaerobic toluene degraders carry out a unique reaction that adds fumarate to toluene (Fig. 1.1). The product of this reaction, benzylsuccinate, is further metabolized by a series of $\beta$-oxidation-like reactions to yield benzoyl-CoA, a central intermediate of anaerobic aromatic degradation. Benzoyl-CoA is then metabolized to TCA cycle intermediates by a pathway that involves ring reduction prior to a series of reactions similar to $\beta$-oxidation and ring cleavage. This review compares the details of the known bacterial pathways and a fungal pathway for the complete degradation of toluene.},
-author = {Parales, R. E. and Parales, J. V. and Pelletier, D. A. and Ditty, J. L.},
-doi = {10.1016/S0065-2164(08)00401-2},
-isbn = {9780123743381},
-issn = {00652164},
-journal = {Advances in Applied Microbiology},
-keywords = {Burkholderia,Burkholderia: metabolism,Genetic Variation,Metabolic Networks and Pathways,Metabolic Networks and Pathways: genetics,Pseudomonas,Pseudomonas: metabolism,Ralstonia,Ralstonia: metabolism,Thauera,Thauera: metabolism,Toluene,Toluene: metabolism},
-month = {jan},
-pages = {1--73},
-pmid = {18485280},
-title = {{Chapter 1 Diversity of Microbial Toluene Degradation Pathways}},
-url = {http://www.sciencedirect.com/science/article/pii/S0065216408004012},
-volume = {64},
-year = {2008}
-}
-@article{Hartmans1991,
-author = {Hartmans, S. and Tramper, J.},
-doi = {10.1007/BF00369060},
-issn = {0178-515X},
-journal = {Bioprocess Engineering},
-month = {feb},
-number = {3},
-pages = {83--92},
-title = {{Dichloromethane removal from waste gases with a trickle-bed bioreactor}},
-url = {http://link.springer.com/10.1007/BF00369060},
-volume = {6},
-year = {1991}
-}
+
 @article{Li2010,
 abstract = {Rapidly evolving sequencing technologies produce data on an unparalleled scale. A central challenge to the analysis of this data is sequence alignment, whereby sequence reads must be compared to a reference. A wide variety of alignment algorithms and software have been subsequently developed over the past two years. In this article, we will systematically review the current development of these algorithms and introduce their practical applications on different types of experimental data. We come to the conclusion that short-read alignment is no longer the bottleneck of data analyses. We also consider future development of alignment algorithms with respect to emerging long sequence reads and the prospect of cloud computing.},
 author = {Li, Heng and Homer, Nils},
@@ -301,6 +299,25 @@ url = {http://www.nature.com.gate1.inist.fr/nmeth/journal/v10/n12/full/nmeth.271
 volume = {10},
 year = {2013}
 }
+
+@article{Blasi2016,
+abstract = {A collection of 163 strains of black yeast-like fungi from the CBS Fungal Biodiversity Center (Utrecht, The Netherlands), has been screened for the ability to grow on hexadecane, toluene and polychlorinated biphenyl 126 (PCB126) as the sole carbon and energy source. These compounds were chosen as representatives of relevant environmental pollutants. A microtiter plate-based culture assay was set up in order to screen the fungal strains for growth on the selected xenobiotics versus glucose, as a positive control. Growth was observed in 25 strains on at least two of the tested substrates. Confirmation of substrate assimilation was performed by cultivation on closed vials and analysis of the headspace composition with regard to the added volatile substrates and the generated carbon dioxide. Exophiala mesophila (CBS 120910) and Cladophialophora immunda (CBS 110551), both of the order Chaetothyriales and isolated from a patient with chronic sinusitis and a polluted soil sample, respectively, showed the ability to grow on toluene as the sole carbon and energy source. Toluene assimilation has previously been described for C. immunda but this is the first account for E. mesophila. Also, this is the first time that the capacity to grow on alkylbenzenes has been demonstrated for a clinical isolate. Assimilation of toluene could not be demonstrated for the human opportunistic pathogen Pseudoallescheria boydii (CBS 115.59, Microascales), but the results from microtiter plate assays suggest that strains of this species are promising candidates for further studies. The outstanding abilities of black yeast-like fungi to thrive in extreme environments makes them ideal agents for the bioremediation of polluted soils, and for the treatment of contaminated gas streams in biofilters. However, interrelations between hydrocarbonoclastic and potentially pathogenic strains need to be elucidated in order to avoid the possibility of biohazards occurring.},
+author = {Blasi, Barbara and Poyntner, Caroline and Rudavsky, Tamara and Prenafeta-Bold{\'{u}}, Francesc X and Hoog, Sybren De and Tafer, Hakim and Sterflinger, Katja},
+doi = {10.1080/01490451.2015.1052118},
+issn = {0149-0451},
+journal = {Geomicrobiology journal},
+number = {3-4},
+pages = {308--317},
+pmid = {27019541},
+title = {{Pathogenic Yet Environmentally Friendly? Black Fungal Candidates for Bioremediation of Pollutants.}},
+url = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=4786828{\&}tool=pmcentrez{\&}rendertype=abstract},
+volume = {33},
+year = {2016}
+}
+
+
+
+
 @article{BarbaraBlasi2015,
 abstract = {InPress},
 author = {{Barbara Blasi} and Poyntner, Caroline and Rudavsky, Tamara and Prenafeta-Bold{\'{u}}, Francesc X. and de Hoog, Sybren and Tafer, Hakim and Sterflinger, Katja},
@@ -523,19 +540,7 @@ url = {http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3827213/},
 volume = {8},
 year = {2013}
 }
-@article{Hartmans1991,
-author = {Hartmans, S. and Tramper, J.},
-doi = {10.1007/BF00369060},
-issn = {0178-515X},
-journal = {Bioprocess Engineering},
-month = {feb},
-number = {3},
-pages = {83--92},
-title = {{Dichloromethane removal from waste gases with a trickle-bed bioreactor}},
-url = {http://link.springer.com/10.1007/BF00369060},
-volume = {6},
-year = {1991}
-}
+
 @book{Sterflinger2005,
 author = {Sterflinger, Katja},
 pages = {501--514},
@@ -678,11 +683,7 @@ title = {{Isolation and characterisation of fungi growing on volatile aromatic h
 volume = {105},
 year = {2001}
 }
-@misc{BarbaraBlasi2015,
-abstract = {InPress},
-author = {{Barbara Blasi} and Poyntner, Caroline and Rudavsky, Tamara and Prenafeta-Bold{\'{u}}, Francesc X. and de Hoog, Sybren and Tafer, Hakim and Sterflinger, Katja},
-title = {{Pathogenic yet environmentally friendly? Black fungal candidates for bioremediation of pollutants}}
-}
+
 @article{Tafer2015,
 abstract = {The fungal genus Exophiala comprises both pathogen species, which cause severe infections in humans, and environmental species, which are able to degrade alkylbenzene compounds. The draft genome sequence of Exophiala mesophila presented here is the first genome assembly of an alkylbenzene-degrading organism belonging to the genus Exophiala.},
 author = {Tafer, Hakim and Lopandic, Ksenija and Blasi, Barbara and Poyntner, Caroline and Sterflinger, Katja},
