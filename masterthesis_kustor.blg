@@ -3,70 +3,50 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: masterthesis_kustor.aux
 The style file: plain.bst
 Database file #1: bib/library.bib
-Repeated entry---line 526 of file bib/library.bib
- : @article{Hartmans1991
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 628 of file bib/library.bib
- : @article{Hartmans1991
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 681 of file bib/library.bib
- : @misc{BarbaraBlasi2015
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 718 of file bib/library.bib
- : @article{Parales2008
- :                     ,
-I'm skipping whatever remains of this entry
-Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
-while executing---line 1049 of file plain.bst
 Warning--empty journal in Hoog2003
 Warning--empty publisher in Korpelainen2014
-Name 2 in "{Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind, Federica di Palma, Bruce W.}, Nir and Friedman, and Aviv Regev" has a comma at the end for entry Grabherr2013
-while executing---line 1090 of file plain.bst
 Warning--empty school in Poyntner2014
 Warning--empty journal in Sterflinger2015
 Warning--empty publisher in Xiong2006
 You've used 35 entries,
             2118 wiz_defined-function locations,
-            743 strings with 12211 characters,
-and the built_in function-call counts, 14643 in all, are:
-= -- 1375
-> -- 989
-< -- 2
-+ -- 389
-- -- 354
-* -- 1291
-:= -- 2523
+            745 strings with 12369 characters,
+and the built_in function-call counts, 15307 in all, are:
+= -- 1417
+> -- 1089
+< -- 1
++ -- 429
+- -- 394
+* -- 1393
+:= -- 2653
 add.period$ -- 105
 call.type$ -- 35
-change.case$ -- 278
+change.case$ -- 298
 chr.to.int$ -- 0
 cite$ -- 40
-duplicate$ -- 404
-empty$ -- 916
-format.name$ -- 354
-if$ -- 2863
+duplicate$ -- 393
+empty$ -- 927
+format.name$ -- 394
+if$ -- 2962
 int.to.chr$ -- 0
 int.to.str$ -- 35
 missing$ -- 35
 newline$ -- 177
 num.names$ -- 72
-pop$ -- 245
+pop$ -- 263
 preamble$ -- 1
-purify$ -- 246
+purify$ -- 266
 quote$ -- 0
-skip$ -- 277
+skip$ -- 262
 stack$ -- 0
-substring$ -- 896
-swap$ -- 53
-text.length$ -- 2
+substring$ -- 938
+swap$ -- 42
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 136
 warning$ -- 5
-while$ -- 130
+while$ -- 129
 width$ -- 37
 write$ -- 378
-(There were 6 error messages)
+(There were 5 warnings)

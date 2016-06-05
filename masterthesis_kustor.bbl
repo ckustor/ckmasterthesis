@@ -22,6 +22,13 @@ H.~Badali, C.~Gueidan, M.~J. Najafzadeh, a.~Bonifaz, a.~H~G {Gerrits van den
   bioremediation of pollutants}.
 \newblock {\em Geomicrobiology Journal; inPress}, 2015.
 
+\bibitem{Blasi2016}
+Barbara Blasi, Caroline Poyntner, Tamara Rudavsky, Francesc~X
+  Prenafeta-Bold{\'{u}}, Sybren~De Hoog, Hakim Tafer, and Katja Sterflinger.
+\newblock {Pathogenic Yet Environmentally Friendly? Black Fungal Candidates for
+  Bioremediation of Pollutants.}
+\newblock {\em Geomicrobiology journal}, 33(3-4):308--317, 2016.
+
 \bibitem{Blasi2015}
 Barbara Blasi, Hakim Tafer, Donatella Tesei, and Katja Sterflinger.
 \newblock {From Glacier to Sauna: RNA-Seq of the Human Pathogen Black Fungus
@@ -40,6 +47,16 @@ Cene Gostin{\v{c}}ar, Martin Grube, Sybren {De Hoog}, Polona Zalar, and Nina
   Gunde-Cimerman.
 \newblock {Extremotolerance in fungi: Evolution on the edge}.
 \newblock {\em FEMS Microbiology Ecology}, 71(1):2--11, 2010.
+
+\bibitem{Grabherr2011}
+Manfred~G Grabherr, Brian~J Haas, Moran Yassour, Joshua~Z Levin, Dawn~A
+  Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong
+  Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind,
+  Federica di~Palma, Bruce~W Birren, Chad Nusbaum, Kerstin Lindblad-Toh, Nir
+  Friedman, and Aviv Regev.
+\newblock {Full-length transcriptome assembly from RNA-Seq data without a
+  reference genome.}
+\newblock {\em Nature biotechnology}, 29(7):644--652, jul 2011.
 
 \bibitem{Haas2003}
 B.~J. Haas.
@@ -117,19 +134,11 @@ Halim Maaroufi and Robert~M Tanguay.
   Viruses and Their Cyanobacteria Host}.
 \newblock {\em PLoS ONE}, 8(11):e81207, nov 2013.
 
-\bibitem{Grabherr2013}
-Nir {Manfred G. Grabherr, Brian J. Haas, Moran Yassour, Joshua Z. Levin, Dawn
-  A. Thompson, Ido Amit, Xian Adiconis, Lin Fan, Raktima Raychowdhury, Qiandong
-  Zeng, Zehua Chen, Evan Mauceli, Nir Hacohen, Andreas Gnirke, Nicholas Rhind,
-  Federica di Palma, Bruce W.}, Friedman, and Aviv Regev.
-\newblock {Trinity: reconstructing a full-length transcriptome without a genome
-  from RNA-Seq data}.
-\newblock {\em Nature Biotechnology}, 29(7):644--652, 2013.
-
 \bibitem{Parales2008}
-R.~E. Parales, J.~V. Parales, D.~A. Pelletier, and J.~L. Ditty.
-\newblock {Chapter 1 Diversity of Microbial Toluene Degradation Pathways}.
-\newblock {\em Advances in Applied Microbiology}, 64:1--73, jan 2008.
+R~E Parales, J~V Parales, D~A Pelletier, and J~L Ditty.
+\newblock {Diversity of microbial toluene degradation pathways.}
+\newblock {\em Advances in applied microbiology}, 64:1--73, 2 p following 264,
+  jan 2008.
 
 \bibitem{Poyntner2014}
 Caroline Poyntner.
@@ -143,13 +152,6 @@ Francesc~X. Prenafeta-Bold{\'{u}}, Andrea Kuhn, Dion~M.A.M. Luykx, Heidrun
 \newblock {Isolation and characterisation of fungi growing on volatile aromatic
   hydrocarbons as their sole carbon and energy source}.
 \newblock {\em Mycological Research}, 105(4):477--484, apr 2001.
-
-\bibitem{Raddadi2015}
-Noura Raddadi, Ameur Cherif, Daniele Daffonchio, Mohamed Neifar, and Fabio
-  Fava.
-\newblock {Biotechnological applications of extremophiles, extremozymes and
-  extremolytes}.
-\newblock {\em Applied Microbiology and Biotechnology}, pages 7907--7913, 2015.
 
 \bibitem{Ritchie2015}
 M.~E. Ritchie, B.~Phipson, D.~Wu, Y.~Hu, C.~W. Law, W.~Shi, and G.~K. Smyth.

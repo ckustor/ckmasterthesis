@@ -14,17 +14,19 @@
 \usepackage{textcomp}
 \usepackage[numbers]{natbib}
 \usepackage[normalem]{ulem}
+\usepackage{color}
 
 \bibliographystyle{plain}
 \parindent0cm
 
-\title{Transcriptome Analysis of Cladophialophora immunda using toluene as carbon source}
+\title{Transcriptome Analysis of Cladophialophora immunda using toluene as sole carbon source}
 \author{Christina Kustor}
 \date{August,2015}
-\newcommand{\HT}[1]{\textcolor{red}\textbf{#1}}
+%\newcommand{\HT}[1]{\textcolor{red}\textbf{#1}}
+\newcommand{\HT}[1]{\textcolor{red}{#1}}
 
 \begin{document}
-	\pagenumbering{gobble}
+\pagenumbering{gobble}
 \newpage
 \begin{center}
 \large {University of Natural Resources and Life Sciences Vienna\\
@@ -34,50 +36,60 @@
 Extremophile Center}}\\
 \vspace*{1cm}
 \LARGE\textbf{Transcriptome Analysis of 
-\textit{Cladophialophora immunda} \\using toluene as carbon source}\\
+\textit{Cladophialophora immunda} \\using toluene as sole carbon source}\\
 \vspace*{0,5cm}
 \large {Masterthesis\\
 \vspace*{1,5cm}
-submitted by\\
-Christina Kustor, BSc.\\
+submitted by \\
+Christina Kustor, BSc\\
 Vienna, 2016\\
-\vspace*{1cm}
-Supervisor: Katja Sterflinger-Gleixner, Assoc. Prof. Dr.\\
-Co-Supervisor: Hakim Tafer, Dr.\\}
+\vspace*{1cm}}
 \end{center}
-
+Supervisor: Katja Sterflinger-Gleixner, Assoc. Prof. Dr.\\
+Co-Supervisor: Hakim Tafer, Dr.\\
 \newpage
-\section*{Acknowledgement}
+\section*{Thanks go to ...}
+\ \\
+... Prof. Katja Sterflinger for being a dedicated teacher and for the opportunity to do my master thesis within such a motivated working group. \\
+\ \\
+... Dr. Hakim Tafer for his first-class supervision and for his constant support whenever a question needed to be answered. \\
+\ \\
+... Caroline Poyntner, Barbara Blasi and Donatella Tesei, who always had a friendly ear for my questions. \\
+\ \\
+... my two brothers, their families and Mario for their huge support through my experiences. \\ 
+\ \\
+Der größte Dank gebührt meinen Eltern: \\
+Danke, für jegliche Unterstützung in meinem Leben und während meiner gesamten Studienzeit. Danke, für euer Vertrauen und eure Liebe. - Diese Arbeit widme ich euch. 
+
+
+
 \newpage
 \pagenumbering{arabic}
 \section*{Abstract}
-The extremophilic fungi \textit{Cladophialophora immunda} is known for
-the capability to grow on aromatic hydrocarbons and moreover for the
+The extremophilic fungi \textit{Cladophialophora immunda} is known for the capability to grow on aromatic hydrocarbons and moreover for the
 ability to degrade hydrocarbons.\\ In this thesis we used RNA
-sequencing data with bioinformatics methods to annotate the genome of \textit{Cladophilaphora
-  immunda} and assess which genes are differentially expressed when
-\textit{Cladophilaphora immunda} is grown on toluene. 
+sequencing data with bioinformatic methods to annotate the genome of \textit{Cladophialophora immunda}, and assess which genes are differentially expressed when \textit{Cladophialophora immunda} is grown on toluene. 
 %%The
 %%transcriptomics data were obtained with RNA sequencing and analysis
 %%were realised with bioinformatics methods. \\ 
 Reproducible workflows for genome annotation with RNA sequencing, gene
 functional annotation and detection of differentially expressed genes
-between two growth conditions were implemented\\. 
+between two growth conditions were implemented.\\ 
 We found that when toluene is the sole carbon source many biological
-processes regarding to energy generation are down-regulated, while
+processes relating to energy generation are down-regulated, while
 genes coding for specific protein metabolic processes and protein
-folding are highly expressed. Especially toluene-degrading enzymes
-were generally up-regulated. Therefore \textit{Cladophialophora
-  immunda} is a candidate for bioremediation through the efficiency to
-use toluene as sole carbon source and degrade it. \\ 
+folding are highly expressed. Toluene-degrading enzymes
+were especially up-regulated. Therefore \textit{Cladophialophora
+  immunda} is a candidate for bioremediation through the efficiency of
+using toluene as sole carbon source and degrading it. \\ 
 \ \\ \textbf{Keywords:} Extremophilic fungi, black
 yeasts, transcriptome analysis, toluene degradation, bioremediation 
 \newpage
 \section*{Zusammenfassung}
 Der extremophile Pilz \textit{Cladophialophora immunda} ist bekannt für seine Fähigkeit auf aromatischen Kohlenwasserstoffen zu wachsen und noch viel mehr für seine Fähigkeit Kohlenwasserstoffe abzubauen. \\
-Diese Masterarbeit benützt die Transkriptome für die Genomannotierung von \textit{Cladophialophora immunda} und untersucht welche Gene differentiell exprimiert werden, wenn \textit{Cladophialophora immunda} auf Toluen wächst. Die Transkiptomdaten wurden durch RNA Sequenzierung erhalten und mit bioinformatischen Methoden analysiert. \\
-Es wurde ein Workflow System für Genomannotierung mit RNA-Sequenzierdaten entwickelt und anschließend die Statistik durchgeführt, um eine Liste mit Genen und deren Unterschiede der Expressionshöhe zwischen zwei Gruppen zu ermitteln. Weiters wurde funktionelle Annotierung und die dazugehörigen Enrichment Analysen realisiert. \\
-Viele biologische Prozesse bezüglich Energieerzeugung sind runter reguliert. \\ Während Gene, die für spezifische metabolische Proteinprozesse und Proteifaltung codieren, höher expremiert sind. Die Gene, die Enzyme für den Toluenabbau codieren, sind ebenfalls hoch reguliert. Daher ist \textit{Cladophialophora immunda} ein Kandidat für Bioremediation durch Möglichkeit Toluen als einzige Kohlenstoffquelle zu nutzen und es abzubauen.\\
+Diese Masterarbeit benützt die Transkriptome für die Genomannotierung von \textit{Cladophialophora immunda} und untersucht welche Gene differentiell exprimiert werden, wenn \textit{Cladophialophora immunda} auf Toluen wächst. Es wurden reproduzierbare Workflows zur Genomannotierung mittels RNA-Sequenzierung, Annotierung von funktionellen Genen und zur differentiellen Expression von Genen bei unterschiedlichen Wachstumsbedingungen entwickelt. \\
+%Es wurde ein Workflow System für Genomannotierung mit RNA-Sequenzierdaten entwickelt und anschließend die Statistik durchgeführt, um eine Liste mit Genen und deren Unterschiede der Expressionshöhe zwischen zwei Gruppen zu ermitteln. Weiters wurde funktionelle Annotierung und die dazugehörigen Enrichment Analysen realisiert. \\
+Wir haben herausgefunden, dass viele biologische Prozesse bezüglich Energieerzeugung runter reguliert sind, wenn Toluen die einzige Kohlenstoffquelle ist. Während Gene, die für spezifische metabolische Proteinprozesse und Proteifaltung codieren, höher expremiert sind. Gene, die Enzyme des Toluenabbaus codieren, sind ebenfalls hoch reguliert. Daher ist \textit{Cladophialophora immunda} ein Kandidat für Bioremediation, da es Toluen als einzige Kohlenstoffquelle nutzen und abbauen kann.\\
 \ \\
 \textbf{Stichw\"orter:} Extremophile Pilze, schwarze Hefen, Transkriptomanalysen, Toluenabbau, Bioremediation
 \newpage
@@ -94,27 +106,25 @@ Viele biologische Prozesse bezüglich Energieerzeugung sind runter reguliert. \\
 %Why they can grow on extreme environments
 % different types
 An extremophile is an organism that thrives under extreme temperature, 
-radiation, pressure, salinity, water and nutrient availability, salinity, pH, redox 
+radiation, pressure, salinity, water and nutrient availability, pH, redox 
 potential \cite{Rothschild2001}.  
-In the last decade the interest in extreme environments and their extremophilic 
+In the last decade interest in extreme environments and their extremophilic 
 microorganisms has increased. Many were isolated and grown in pure culture in order to  
 profile their metabolites, as these products are useful for the development of a bio-based 
-economy. For example \textit{Deinococcus radiodurans}, the most radiation-resistant organism, is used to degrade ionic mercury and toluene in radioactive sludge. The diversity of fungi found in the most extreme environments is one of the greatest in microorganisms. \sout{Comparative results of 
-evolutionary studies have attempted to explain adaptability of extremophiles} 
-\cite{Gostincar2010}.  
+economy. For example \textit{Deinococcus radiodurans}, the most radiation-resistant organism, is used to degrade ionic mercury and toluene in radioactive sludge. The diversity of fungi found in the most extreme environments is one of the greatest in microorganisms \cite{Gostincar2010}. %\sout{Comparative results of evolutionary studies have attempted to explain adaptability of extremophiles} .  
 
 
 \section{Black yeasts} 
 %black fungi general
-"Black yeasts" is a \textit{terminus technicus} describing a group of fungi that inhabits extreme environments characterized by oligotrophic nutrient conditions, elevated temperatures, UV radiation and osmotic stress and combinations of these factors. Other terms are "meristematic fungi" and "microcolonial fungi".
-Meristematic fungi was first mentioned by de Hoog and Hermanides Nijhof in 1977, for fungi that form aggregates of thick-walled, melanized cells enlarging and reproducing by isodiametrical division. Microcolonial fungi refers to growth pattern of meristematic fungi and some black yeasts. These fungi grow in mineral substrates like rock but also glass or metal \cite{Sterflinger2006}. \\
-The combined influence of the mentioned stress factors exerts a high selective pressure on the microbial community and as a consequence black yeasts are rarely found in complex microbial populations. Black yeasts are quite heterogeneous from taxonomic and phylogenetic point of view but they have in common melanized cell walls. The production of melanins and the incrustation of the cell walls with this high-molecular substances are important factors in stress resistance of black yeasts. The black yeasts include species that are also found in human environments and have a human-pathogenic potential \cite{Sterflinger2006}. In pathogenic black yeasts melanin also affects the penetration of host tissue in plants, animal and human tissue. \textit{Exophiala dermatitidis} and \textit{Cryptococcus neoformans} are such human pathogenic yeasts where melanin is one of the virulence factors \cite{Hoog2003, Sterflinger2006}. Other black fungi associated with humans are represented by the typical black yeasts belonging to the genera \textit{Fonsecaea, Capronia, Phaeococcomyces and Cladophialophora} \cite{Blasi2015}. \\
+"Black yeasts" is a \textit{terminus technicus} describing a group of fungi that inhabits extreme environments characterized by oligotrophic nutrient conditions, elevated temperatures, UV radiation and osmotic stress, and combinations of these factors. Other terms are "meristematic fungi" and "microcolonial fungi".
+Meristematic fungi was first mentioned by de Hoog and Hermanides Nijhof in 1977, as fungi that form aggregates of thick-walled, melanized cells enlarging and reproducing by isodiametrical division. Microcolonial fungi refers to the growth pattern of meristematic fungi and some black yeasts. These fungi grow in mineral substrates like rock but also on glass or metal \cite{Sterflinger2006}. \\
+The combined influence of the mentioned stress factors exerts a high selective pressure on the microbial community and as a consequence black yeasts are rarely found in complex microbial populations. Black yeasts are quite heterogeneous from a taxonomic and phylogenetic point of view but they have in common melanized cell walls. The production of melanins and the incrustation of the cell walls with these high-molecular substances are important factors in stress resistance of black yeasts. The black yeasts include species that are also found in human environments and have a human-pathogenic potential \cite{Sterflinger2006}. In pathogenic black yeasts melanin also affects the penetration of host tissue in plants, animal and human tissue. \textit{Exophiala dermatitidis} and \textit{Cryptococcus neoformans} are such human pathogenic yeasts where melanin is one of the virulence factors \cite{Hoog2003, Sterflinger2006}. Other black fungi associated with humans are represented typically by the black yeasts belonging to the genera \textit{Fonsecaea, Capronia, Phaeococcomyces and Cladophialophora} \cite{Blasi2015}. \\
 \ \\
 The group of black fungi was chosen for the purpose of bioremediation, as they are found in extreme environments and  are able to degrade aromatic and non-aromatic hydrocarbons \cite{Poyntner2014} . 
 
 \section{Bioremediation}
 %caro masterthesis
-Toluene and other related aromatic hydrocarbons are abutant environmental pollutants. Bioremediation of pollutants is an attractive soil and water cleaning method because of its environmental and economical advantages. Currently bacteria are the main bioremediation agent.   Still fungal bioremediation agents show a higher resistance to reduced water activity and low pH, two prevalent conditions in biofilters \cite{Luykx2003}. The use of fungi to degrade contaminants in the environment is also termed mycoremediation.\\
+Toluene and other related aromatic hydrocarbons are abutant environmental pollutants. Bioremediation of pollutants is an attractive soil and water cleaning method because of its environmental and economical advantages. Currently bacteria is the main bioremediation agent. Still fungal bioremediation agents show a higher resistance to reduced water activity and low pH, two prevalent conditions in biofilters \cite{Luykx2003}. The use of fungi to degrade contaminants in the environment is also termed mycoremediation.\\
 This biological treatment can be differentiated into bio-augmentation, biosparging, bioventing, composting and several other less frequently applied methods. The method of the preceding study was bioaugmentation, a bioremediation option for hydrocarbon-contaminated, oily- sludge restoration. Bioaugmentation is a process where selected microorganisms are added to an area that has been contaminated with an unwanted substance. The specific microorganisms breakdown the contaminants. Bioavailability of the contaminant for the microorganisms, the degradation to less toxic compounds and the opportunity for optimization of biological activity are critical points in bioremediation \cite{Poyntner2014}.  \\
 
 %%%toluene degradation pathways
@@ -126,10 +136,10 @@ This biological treatment can be differentiated into bio-augmentation, biospargi
 	\label{Toluendeg}
 \end{figure}
 
-Toluene (methylbenzene) is an aromatic hydrocarbon and natural product of diagenic origin and an important commercial chemical. The BTEX mixtures referred to in bioremediation applications contain benzene, ethylbenzene, toluene and xylenes. These toxic compounds are usually difficult to remove to their wide dispersal in ecosystem. 
+Toluene (methylbenzene) is an aromatic hydrocarbon and natural product of diagenic origin and an important commercial chemical. The BTEX mixtures referred to in bioremediation applications contain benzene, ethylbenzene, toluene and xylenes. These toxic compounds are usually difficult to remove, due  to their wide dispersal in an ecosystem. 
 %%%%%caros part of toluene
 \\
-A toluene degradation pathway in fungi proposed for \textit{Cladophialophora saturnica} \cite{Badali2008} and in an other previous study the connection between toluene metabolism and cytochrome P450 was established \cite{Luykx2003}. The examinations for the presence of genes belonging to the pathway for the toluene degradation (figure \ref{Toluendeg}) were done in comparison with the genome of the model yeast \textit{Saccharomyces cerevisiae} strain S288c. In the genome of \textit{S. cerevisiae}, only the first two enzymes of the pathway, cytochrome P450 and the benzyl alcohol dehydrogenase, are present. Three enzymes of the pathway are missing in  \textit{Cladophialophora immunda} \cite{Blasi2016, Parales2008}. \\
+A toluene degradation pathway in fungi is proposed for \textit{Cladophialophora saturnica} \cite{Badali2008} and in another previous study the connection between toluene metabolism and cytochrome P450 was established \cite{Luykx2003}. The examinations for the presence of genes belonging to the pathway for the toluene degradation (figure \ref{Toluendeg}) were done in comparison with the genome of the model yeast \textit{Saccharomyces cerevisiae} strain S288c. In the genome of \textit{S. cerevisiae}, only the first two enzymes of the pathway, cytochrome P450 and the benzyl alcohol dehydrogenase, are present. Three enzymes of the pathway are missing in  \textit{Cladophialophora immunda} \cite{Blasi2016, Parales2008}. \\
 
 
 \section{Study of \textit{Cladophialophora immunda}}\label{study}
@@ -161,17 +171,15 @@ The genus \textit{Cladophialophora} belongs to the ascomycetes and forms two phy
 station, in a hydrocarbon rich environment, therefore the fungi is an
 important candidate for bioremediation and for application in
 biofilters \cite{Prenafeta-Boldu2001}.  \\ %barbaras work
-To better
-understand the mechanisms of black yeasts and their effect to degrade
-hydrocarbons, a preceding study on bioremediation was done. Therefore
-a collection of 163 strains of black yeast-like fungi from the CBS
-Fungal Biodiversity Center (Utrecht, The Netherlands) has been
+To better understand the mechanisms of black yeasts and their effect of degrading
+hydrocarbons, a preliminary study on bioremediation was undertaken. A collection of 163 strains of black yeast-like fungi from the CBS
+Fungal Biodiversity Center (Utrecht, The Netherlands) was
 screened for the ability to grow on hexadecane, toluene and
 polychlorinated biphenyl 126 (PCB126) as the sole carbon and energy
 source. These compounds were chosen as representatives of relevant
 environmental pollutants.  The results indicated that the two strains
 of \textit{C. immunda} and \textit{Exophiala mesophila} are able to
-grow on media with toluene as carbon source, confirmed by an increase
+grow on media with toluene as a carbon source, confirmed by an increase
 in CO$_2$ and a toluene decrease shown in figure \ref{GCresults}
 \cite{BarbaraBlasi2015, Poyntner2014}.
 
@@ -184,14 +192,14 @@ in CO$_2$ and a toluene decrease shown in figure \ref{GCresults}
 \end{figure}
 
 %%%% AIM OF THE THESIS %%%%%
-This work uses the recently assembled genome of {\Cladophialophora immunda} and RNA-seq to annotate protein coding and non-coding genes. The protein sequence of the coding genes was used to elucidate their function. The RNA-seq data were obtained from {\Cladophialophora immunda} grown either on toluene or glucose as the sole carbon source. 
-Accordingly the aim of the thesis is to examine the way in which the transcriptomes of \textit{Cladophialophora immunda} can be determined and identify which genes are transcribed under different conditions. The major issue is to determine the pathways that allow \textit{C. immunda} to use toluene as carbon source.\\ 
+This work uses the recently assembled genome of \textit{Cladophialophora immunda} and RNA-seq to annotate protein coding and non-coding genes. The protein sequence of the coding genes was used to elucidate their function. The RNA-seq data were obtained from \textit{Cladophialophora immunda} grown either on toluene or glucose as the sole carbon source. 
+Accordingly the aim of this thesis is to examine the way in which the transcriptomes of \textit{Cladophialophora immunda} can be determined and to identify which genes are transcribed under different conditions. The major issue is to determine the pathways that allow \textit{C. immunda} to use toluene as carbon source.\\ 
 The transcriptome data were obtained with RNA-seq performed by Ion Torrent technology coupled with the Ion Proton sequencer (Life Technologies, Carlsbad, CA) \cite{BarbaraBlasi2015}. 
 
 \section{Transcriptome analysis}
-The powerful technology RNA-sequencing and the analysis of transcriptomes, to know which gene is expressed, became an important method in science. Transcriptome analysis enables the understanding of how sets of genes work together to form metabolic, regulatory and signalling pathways within a cell \cite{Xiong2006}.  
+The powerful technology RNA-sequencing and the analysis of transcriptomes, to know which gene is expressed, is an important method in this field. Transcriptome analysis enables the understanding of how sets of genes work together to form metabolic, regulatory and signalling pathways within a cell \cite{Xiong2006}.  
 \subsection{RNA sequencing}
-RNAs in total or fractioned are first converted into a library of cDNA fragments. Sequencing adaptors are added to each cDNA fragment to one or both ends. Each molecule is then sequenced in a high-throughput manner to obtain short sequences from one end (single-end sequencing) or both ends (pair-end sequencing). The reads are typically 30–400 bp, depending on the sequencing technology used. If the resulting sequence reads have been obtained, the first task of data analysis is to map the short reads from RNA-seq to the reference genome or to assemble them into contigs before aligning them to the genomic sequence to reveal transcription structure. The way of analysing transcriptomic data differs considering short reads also contain reads that span exon junctions or that contain poly(A) ends. Alignment can be also complicated for large transcriptomes as a result of matching multiple locations in the genome with a significant portion of sequence reads \cite{Wang2010}.  \\
+RNAs whole or fragmented are first converted into a library of cDNA fragments. Sequencing adaptors are added to each cDNA fragment at one or both ends. Each molecule is then sequenced in a high-throughput manner to obtain short sequences from one end (single-end sequencing) or both ends (pair-end sequencing). The reads are typically 30–400 bp, depending on the sequencing technology used. If the resulting sequence reads have been obtained, the first task of data analysis is to map the short reads from RNA-seq to the reference genome or to assemble them into contigs before aligning them to the genomic sequence to reveal transcription structure. The way of analysing transcriptomic data differs due to short reads also contain reads that span exon junctions or that contain poly(A) ends. Alignment can be also complicated for large transcriptomes as a result of matching multiple locations in the genome with a significant portion of sequence reads \cite{Wang2010}.  \\
 An advantage of RNA-seq from earlier methods, such as microarrays, is the high throughput of current RNA-seq platforms, the sensitivity afforded by newer technologies and the ability to discover novel transcripts, gene models and non-coding RNA species \cite{Korpelainen2014}.  \\
 
 \section{Bioinformatics methods}
@@ -200,10 +208,10 @@ The increasing use of next-generation sequencing methods leads to an overwhelmin
 \subsection{Workflow System}
 The data analysing steps were performed by different programs and tools, which may need specific data formats and external files. The multiple steps can be handled through scripting a reusable pipeline with defined inputs, outputs and parameters for each step. 
 
-The software Snakemake was used to evolve the pipelines for genome annotation, functional annotation and enrichment analysis. Snakemake is based in Python language and can be used on a single core workingstation as well as on a cluster without modifying the workflow. 
+The software Snakemake was used to evolve the pipelines for genome annotation, functional annotation and enrichment analysis. Snakemake is based in Python language and can be used on a single core workstation as well as on a cluster without modifying the workflow. 
 Snakemake's option "--dag" creates the directed acyclic graph (DAG) of executed jobs \cite{Koster2012}.   
 \newline
-In figure \ref{fig:DAG} exemplified the DAG of the educed Snakemake file. Jobs (i.e. the execution of a rule) are depicted as nodes, a directed edge between two jobs means that the rule underlying the second job needs the output of the job executed before as an input file. A path represents a sequence of jobs that have to be executed serially.
+Figure \ref{fig:DAG} gives an example of the DAG of the educed Snakemake file. Jobs (i.e. the execution of a rule) are depicted as nodes, a directed edge between two jobs means that the rule underlying the second job needs the output of the previous job executed before as an input file. A path represents a series of jobs that have to be executed sequentially.
 \begin{figure}[H]
 	\centering	
 	\includegraphics[width=430pt]{pics/DAG.png}
@@ -298,7 +306,8 @@ Differential expression analysis refers to identification of genes or type of ge
 	{Steps of differential expression analysis}
 \end{figure}
 
-The first step of differential analysis is achieved by mapping RNA-seq data with \textit{STAR} (\ref{STAR}). The data input to \textit{limma} should be counts such as reads-per-kilobase-per-million (RPKM) produced by \textit{featureCounts}~\HT{FEATURECOUNT RETURNS RAW COUNTS AND NOT RPKM} (\ref{featurecount}). \textit{Limma} was then used to find differentially expressed genes. \\
+The first step of differential analysis is achieved by mapping RNA-seq data with \textit{STAR} (\ref{STAR}). The data input to \textit{limma} should be raw counts produced by \textit{featureCounts} (\ref{featurecount}). %\HT{FEATURECOUNT RETURNS RAW COUNTS AND NOT RPKM}
+\textit{Limma} was then used to find differentially expressed genes. \\
 The software is based on the concept of linear models with the idea to model the expression of each gene as a linear combination of some different explanatory factors. For the experiment on \textit{C. immunda} the linear model for each gene assembled by the measured gene expression (\textit{y}) is equal to the intercept (\textit{a}) representing the average expression level of the gene when the factor (\textit{condition}) is in its reference state plus the error term (\textit{e}): 
 \[y = a + b * condition + e\]
 A generalized linear model (GLM) is a more flexible version of a standard linear model that allows the distribution of the response variable to be different from the normal distribution used in standard linear regression. GLM assume that the read counts are distributed according to the negative binomial distribution. 
@@ -308,7 +317,8 @@ Hence a contrast matrix has to be set up that describes which comparisons wants 
 
 
 \section{Enrichment Approach}
-\HT{UNCLEAR: Trough Enrichment Analysis a list of over-represented molecular functions, biological processes and cell locations, that can then be used to test whether genes are regulating biochemical or cellular pathway, is provided. Enrichment analysis is a necessary step after data analysis for more detailed annotations about differentially expressed genes, so that a biological meaning can be postulated. \\} 
+%\HT{UNCLEAR: Trough Enrichment Analysis a list of over-represented molecular functions, biological processes and cell locations, that can then be used to test whether genes are regulating biochemical or cellular pathway, is provided. Enrichment analysis is a necessary step after data analysis for more detailed annotations about differentially expressed genes, so that a biological meaning can be postulated. \\} 
+Enrichment Analysis is a method to identify a group of genes or proteins of over-represented molecular functions, biological processes and cell locations. After differential expression analysis genes are linked to biological pathways and the additive changes of expression within gene sets are shown.\\
 \ \\
 Functional annotation elements are identified with R-packages Gene Set Enrichment Analysis (GSEA) \cite{Subramanian2005} and Gene Ontology (GO) and the metabolic pathways by Kyoto Encyclopedia of Genes and Genomes (KEGG). 
 A custom script was used to summarize the list of significantly overrepresented GO terms and data are graphically represented with R. \\
@@ -320,7 +330,8 @@ Kyoto Encyclopedia of Genes and Genomes is a collection of databases dealing wit
 
 \section{Pipeline implementation}
 %overview of the pipeline used where all paramaters and thresholds are use. this leads us than to the results. 
-The data used was downloaded from the sequencer-server, three of them~\HT{bezieht sich auf?} were the transcriptomes of \textit{Cladophialophora immunda} cultivated with glucose as carbon-source and the other three with toluene. \\
+The six data sets used was downloaded from the sequencer-server, three data sets %\HT{bezieht sich auf?} 
+were the transcriptomes of \textit{Cladophialophora immunda} cultivated with glucose as carbon-source and the other three data sets with toluene. \\
 Before implementing the workflow system a comparison of publications, different programs and tools were done. The choice of a suitable program depended on the kind of analysis and the performance and the amount of time it required. Another important issue was the option available of the used program. \\
 In the beginning the reads' origin was identified by aligning them to the reference genome with \textit{STAR}. Mapped reads were used to perform transcript assembly with the softwares \textit{Cufflinks} and\textit{Trinity Genome Guided}. \textit{Trinity} also was employed for mapping-free transcript assembly. With the produced assemblies from \textit{Cufflinks} and\textit{Trinity}, the Program to Assembly Spliced Alignments (\textit{PASA}) performed the spliced alignment mapping. \textit{PASA} assemblies were utilized to create hints for the location of introns and exons. Those hints were integrated in a hint-based run of \textit{Augustus}. Evidence Modeler (\textit{EVM}) was used to combine weighted predictions. The last step was a annotation update implemented by \textit{PASA}, where the output of \textit{EVM} compared to \textit{PASA} alignment assemblies and generated a updated gene set \cite{Haas2011, Steijger2013, Linde2015}.  \\
 Figure \ref{fig:pipeline} shows the draft of the entire workflow system for genome annotation with transcriptomic data. The inputs are the transcriptomes from RNA-Seq in bam-format, the genome in fasta-format and the \textit{deNovo} annotation data in gff3-format. After runs of the different steps the output is an annotation file in gff3-format.
@@ -408,21 +419,25 @@ The average mean read length was 140 bp and the total reads generated per sample
 Annotations connect novel RNA sequencing data with biological information about the same transcripts derived from other studies. If a reference genome is available, genomic coordinates are normally associated with various form of annotation information through databases. Otherwise the mapping coordinates are given from an alignment. 
 \begin{table}[H]
 	\centering
-\begin{tabular}{c|c|c}
-	\hline
-	\textbf{\textit{C. immunda} CBS83496} & \textbf{Size} & \textbf{Genes} \\
-	\hline
+\begin{tabular}{c c c|c}
+	\textbf{\textit{C. immunda}} & & \textbf{Genes} & \textbf{Proteins} \\
+	\textbf{CBS83496}& & 14,438 & 16,812   \\ 
+	
+	
 \end{tabular}
 \caption{Genome Annotation}
 \end{table}
 
 \section{Up- and Down-regulated genes}
-Differential expression analysis was used to prepare a lists of up- and down-regulated genes. In order to filter significant results of differential expressed genes, a threshold for the p-value and logFC-value (logFoldChange) was set. \\
-The logFC-value is used to determine two data sets reflecting gene expression measured under different conditions. 
+Differential expression analysis was used to prepare lists of up- and down-regulated genes. In order to filter significant results of differential expressed genes, a threshold for the \textit{p}-value and \textit{logFC}-value (\textit{logFoldChange}) was set. \\
+The \textit{p}-value is defined as the probability of the obtaining results and is used in hypothesis testing. The threshold value for \textit{p} is called the significance level. The \textit{FoldChange}-value is used to determine two data sets reflecting gene expression measured under different conditions. It´s logarithm is called \textit{logFoldChange}, which is more attractive for differential expression because positive values indicate up- and negative values indicate down-regulation. 
 \[
 \textit{Expression level B = Expression level A * foldChange}
 \]
-~\HT{sicherstellen dass du p-value, foldchange and log foldchange nicht verwerchselt}
+\[
+\textit{logfoldChange = log2(foldChange)}
+\]
+%~\HT{sicherstellen dass du p-value, foldchange and log foldchange nicht verwerchselt}
 If the result is 0.2, it means that the expression level in the experimental condition (TOL-samples) is 0.2-fold the expression as in the control condition (GLU-samples). \\
 For the up-regulated data set threshold was set by a p-value less than 0.2 and the logFC-value (logFoldChange) greater than zero. For the down-regulated dataset threshold was set again by a p-value less than 0.2 but an logFC-value less than zero. \\
 
@@ -474,7 +489,8 @@ Overall, the first 500 differentially expressed genes were considered. \\
 To visualize the correlation of the samples and check for potential outliers a correlation heatmap and principal component (PCA) plot was created. \\
 Heatmap using a color scale to displays the expression values of the genes. Genes are arranged in columns (samples) and rows (features) as in the data matrix. Each feature-sample pair is represented with a small rectangle that is coloured according to its expression. \\
 The results of the correlation between the different samples are presented in the heatmap in figure \ref{fig:heatmap}. The dendrograms along the sides show how the samples and the features are independently clustered. Light colour like yellow indicates a good relation between the samples. The darker the colour, the lower is the correlation. \\
-~\HT{bitte klarer darstellen:} Principal component analysis is based on finding which samples have the strongest correlation. As figure \ref{fig:pca} shows a variance of 94$\%$ between the glucose and toluene samples. On y-axis the variance between the samples is 2$\%$. 
+%~ \HT{bitte klarer darstellen:} 
+Principal component analysis is based on finding which samples have the strongest correlation. It is a linear transformation method to show the variance in the data set. As figure \ref{fig:pca} shows a variance of 94$\%$ between the glucose and toluene samples. On y-axis the variance between the samples is 2$\%$. 
 \ \\
 
 %\begin{figure}[H]
@@ -502,7 +518,7 @@ The results of the correlation between the different samples are presented in th
 	\end{subfigure}
 	\hspace*{1cm} 
 	\begin{subfigure}{0.5\textwidth}
-		\includegraphics[width=200pt]{pics/PCA2.png}
+		\includegraphics[width=200pt]{pics/PCA2}
 		\caption{Principal component analysis} \label{fig:pca}
 	\end{subfigure}
 	\hspace*{\fill} % separation between the subfigures
@@ -551,7 +567,8 @@ GO:0016569&	0,004632185&	10,73397129&	0,35173132&	3&	14&	covalent chromatin modi
 \label{tab:GOup}
 \end{table}
 
-The results, as shown in table \ref{tab:GOup}, indicate that there are changes in the protein metabolic process and cellular protein metabolic process. \HT{UNKLAR:There is an impact on the chemical reactions and pathways involving a specific protein, rather than of proteins in general.} \\
+The results, as shown in table \ref{tab:GOup}, indicate that there are changes in the protein metabolic process and cellular protein metabolic process. Because of that, chemical reactions and pathways involving a specific protein, e.g. protein modifications, are higher expressed. 
+%\HT{UNKLAR:There is an impact on the chemical reactions and pathways involving a specific protein, rather than of proteins in general.} \\
 Protein folding is the next up-regulated process, which affect the chaperone activity. Chaperones assist in the covalent and non-covalent assembly of single chain polypeptides into the correct tertiary structure. \\
 Furthermore the metabolic processes of macromolecules, cellular macromolecules, DNA and the protein modification process are up-regulated. The significance of these processes is lower than in the first three processes. In figure \ref{fig:goup} the results obtained from the GO terms for up-regulated genes are presented. 
 
@@ -767,29 +784,27 @@ Table \ref{tolenzymes} shows the summary statistic for the enzymes of toluene de
 \setcounter{chapter}{4}\setcounter{section}{0}
 \chapter*{Discussion}
 \addcontentsline{toc}{chapter}{Discussion}
-The study was designed to determine the effect of toluene on \textit{C. immunda} at transcriptome level and use there degrading performances in biotechnological applications like bioremediation \cite{BarbaraBlasi2015}. Previous results indicated that \textit{C. immunda} has the ability to degrade toluene and use it as sole carbon source, confirmed through an increase in CO$_2$-concentration \cite{Poyntner2014}. The present work provides information on gene expression changes observed during the response to use toluene as sole carbon source.\\
-Overall, the study found out that regulation of transcription and translation are significantly down-regulated. This result may be explained by the fact that the addition of toluene to the media causes a stress situation for the cell. Biological processes and pathways regarding to cell metabolism and energy generation are lower expressed compared to glucose-samples, e.g. carbohydrate metabolism and TCA cycle. TCA cycle is the central metabolic pathway for ATP production within a cell and provide the precursors for biosynthesis of various metabolic products. Processes regarding to the purine nucleoside metabolic process are also lower expressed, which has an effect on the cell metabolism and energy generation too. Together these results shows that the fungi is probably saving energy during stress situations. This observation is corroborated by the down-regulation of carbon metabolism and support the idea that \textit{C. immunda} use toluene as energy source. \\
-According to these data, genes coding for DNA-binding motifs like Zinc finger are up-regulated. Zinc finger proteins are transcription factors capable of binding selectively to specific sequences of DNA. They can act as repressor or activator of transcription. If Zinc finger proteins support or prevent transcription, could be determined in further studies of \textit{C. immunda}. \\
-The positive response to the stress is related to up-regulated genes. These include genes predicted to be involved in chaperone and protein folding activity and DNA repair and thus, protection of the cell. The genes coding for specific protein metabolic processes and protein folding are highly expressed. Toluene is a stress factor leading to the activity of protein folding machinery. This may reflect the tolerance of this fungi exhibit by building heat shock proteins. \\
+The study was designed to determine the effect of toluene on \textit{C. immunda} at transcriptome level and use its degrading performances in biotechnological applications like bioremediation \cite{BarbaraBlasi2015}. Previous results indicated that \textit{C. immunda} has the ability to degrade toluene and use it as sole carbon source, confirmed through an increase in CO$_2$-concentration \cite{Poyntner2014}. The present work provides information on gene expression changes observed during the response to using toluene as sole carbon source.\\
+Overall, the study found out that regulation of transcription and translation are significantly down-regulated. This result may be explained by the fact that the addition of toluene to the media causes a stress situation for the cell. Biological processes and pathways relating to cell metabolism and energy generation are expressed less frequently compared to glucose-samples, e.g. carbohydrate metabolism and TCA cycle. TCA cycle is the central metabolic pathway for ATP production within a cell and provides the precursors for biosynthesis of various metabolic products. Processes relating to the purine nucleoside metabolic process have a lower expression, which in addition has an effect on the cell metabolism and energy generation too. Together these results shows that the fungi is probably saving energy during stress situations. This observation is corroborated by the down-regulation of carbon metabolism and supports the idea that \textit{C. immunda} use toluene as an energy source. \\
+According to these data, genes coding for DNA-binding motifs like Zinc finger are up-regulated. Zinc finger proteins are transcription factors capable of binding selectively to specific sequences of DNA. They can act as repressor or activator of the transcription. Further studies of \textit{C. immunda} could be used to determine if Zinc finger proteins support or prevent transcription. \\
+The positive response to the stress is related to up-regulated genes. These include genes predicted to be involved in chaperone protein folding activity and DNA repair and thus, protection of the cell. The genes coding for specific protein metabolic processes and protein folding are highly expressed. Toluene is a stress factor leading to protein folding machinery. This may reflect the tolerance of this fungi exhibit by building heat shock proteins. \\
 The predicted genes that are essential for the category of glycolysis/gluconeogenesis are down-regulated. 
-Gluconeogenises is needed when glucose is not longer available, this suggest that \textit{C. immunda} use an alternative carbon source metabolism. It can therefore be assumed that the missing catabolites from glycolysis and gluconeogenises are provided by the products of toluene degradation.\\
+Gluconeogenises is needed when glucose is not longer available, this suggests that \textit{C. immunda} use an alternate carbon source metabolism. It can therefore be assumed that the missing catabolites from glycolysis and gluconeogenises are provided by the products of toluene degradation.\\
 
-These categories of differential expressed genes show an opposing regulation pattern after toluene-treatment. The results of GO enrichment and KEGG pathways analysis revealed a coordinated shutdown of metabolic activity at the transcriptome level. The cell slow down the processes of RNA synthesis and subsequent protein synthesis, but can survive by building proteins for protection. 
-So the stress response and defense strategies are adapting during this condition. This might even mean that toluene concentration were way too high leading to the dormant state. In contrast \textit{Cladophialophora immunda} has the ability to degrade toluene. \\
-Genes coding for enzymes necessary for toluene degradation are generally up-regulated. Fungi with the ability to grow on aromatic hydrocarbons might contribute to bioremediation of BTEX mixture. Therefore this fungi is a candidate for bioremediation through the efficiency to use toluene as sole carbon source and degrade it. This would be a fruitful area for further research of fungal bioremediation. \\
+These categories of differentially expressed genes show an opposing regulation pattern after toluene-treatment. The results of GO enrichment and KEGG pathways analysis revealed a coordinated shutdown of metabolic activity at the transcriptome level. The cell slows down the processes of RNA synthesis and subsequent protein synthesis, but can survive by building proteins for protection. 
+So the stress response and defense strategies are adapting during this condition. This might even mean that toluene concentrations were way too high leading to the dormant state. In contrast \textit{Cladophialophora immunda} has the ability to degrade toluene. \\
+Genes coding for enzymes necessary for toluene degradation are generally up-regulated. Fungi with the ability to grow on aromatic hydrocarbons might contribute to bioremediation of BTEX mixture. Therefore this fungi is a candidate for bioremediation through the ability to use toluene as sole carbon source and degrade it. This would be a fruitful area for further research of fungal bioremediation. \\
 
-The implementation of an workflow system for genome annotation with RNA-seq data was sucessful. It is a fast method to analyse transcriptomics data that allow annotations of coding and non-coding genes and gene expression analysis. The pipeline can be used for analysing other transcriptomics data of black yeasts. 
-
-\HT{PUT some gene statistics: how many coding how many non-coding etc...}
+The implementation of workflow system for genome annotation with RNA-seq data was sucessful. It is a fast method to analyse transcriptomics data that allow annotations of coding and non-coding genes and gene expression analysis. The pipeline can be used for analysing other transcriptomics data of black yeasts.\\
 
 \newpage
 \chapter*{Conclusion}
 \addcontentsline{toc}{chapter}{Conclusion}
-The aim of this work was to study the transcriptional response of \textit{Cladophialophora immunda} when exposed to toluene as the sole carbon source. This extremophilic organism is an important fungi with the ability to degrade toluene. \textit{Cladophialophora immunda} can use toluene as carbon and energy source  and provide these catabolites as substrates for TCA cycle. \\
+The aim of this work was to study the transcriptional response of \textit{Cladophialophora immunda} when exposed to toluene as the sole carbon source. This extremophilic organism is an important fungi with the ability to degrade toluene. \textit{Cladophialophora immunda} can use toluene as a carbon and energy source  and provide these catabolites as substrates for the TCA cycle. \\
 
-For analysis a genome annotation pipeline with RNA-seq data as input was developed. This pipeline allows the fast and reproductible study of transcriptomics data, like differential expression, coding and non-coding gene annotation.. It should be noted that the used softwares and differential expression analysis methods for RNA-seq are still under active development. RNA-seq has clear advantages over other methods like microarrays. The future challenge is to target more complex transcriptomes and without the matching software, analysing transcriptome is not possible. \\
+For analysis, a genome annotation pipeline with RNA-seq data as input was developed. This pipeline allows the fast and reproductible study of transcriptomics data, like differential expression, coding and non-coding gene annotation. It should be noted that the softwares and differential expression analysis methods used for RNA-seq are still under active development. RNA-seq has clear advantages over other methods like microarrays. The future challenge is to target more complex transcriptomes and without the matching software, analysing transcriptome is not possible. \\
  
-Possibilities of the ongoing research could be a closer look at enzymes of toluene degradation pathway or special proteins by PCR methods to getting a deeper understanding of the black yeasts as special \textit{Cladophialophora immunda}.\\
+Possibilities for ongoing research could to look more closely at enzymes of toluene degradation pathway or special proteins by PCR methods to get a deeper understanding of the black yeasts such as special \textit{Cladophialophora immunda}.\\
  
 
 \newpage
@@ -823,7 +838,7 @@ kenntlich gemacht habe.\\
 \vspace{3cm}
 
 
-Wien, Mai 2016  \hspace*{6cm} Christina Kustor
+Wien, Juni 2016  \hspace*{6cm} Christina Kustor
 
 
 

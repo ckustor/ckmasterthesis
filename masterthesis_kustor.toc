@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.6}Enrichment Approach}{20}
 \contentsline {section}{\numberline {2.7}Pipeline implementation}{21}
 \contentsline {subsubsection}{\textit {Augustus}}{25}
-\contentsline {subsubsection}{\textit {Evidence Modeler}}{26}
+\contentsline {subsubsection}{\textit {Evidence Modeler}}{25}
 \contentsline {subsubsection}{\textit {Pasa Annotaion Update}}{26}
 \contentsline {chapter}{Results}{27}
 \contentsline {section}{\numberline {3.1}Genome Annotation}{27}
